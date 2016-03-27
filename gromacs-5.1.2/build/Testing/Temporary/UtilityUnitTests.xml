@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="212" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.001" name="AllTests">
+  <testsuite name="EmptyArrayRefTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="IsEmpty" status="run" time="0" classname="EmptyArrayRefTest" />
+  </testsuite>
+  <testsuite name="EmptyConstArrayRefTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="IsEmpty" status="run" time="0" classname="EmptyConstArrayRefTest" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/0" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/1" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/1" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/2" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/2" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/3" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/3" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/4" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/4" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/5" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/5" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/6" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/6" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/7" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/7" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/8" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/8" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/9" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/9" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/10" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;char&gt;" status="run" time="0" classname="ArrayRefTest/10" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/11" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned char&gt;" status="run" time="0" classname="ArrayRefTest/11" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/12" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;int&gt;" status="run" time="0" classname="ArrayRefTest/12" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/13" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned int&gt;" status="run" time="0" classname="ArrayRefTest/13" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/14" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/14" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/15" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/15" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/16" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;long&gt;" status="run" time="0" classname="ArrayRefTest/16" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/17" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;unsigned long&gt;" status="run" time="0" classname="ArrayRefTest/17" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/18" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;float&gt;" status="run" time="0" classname="ArrayRefTest/18" />
+  </testsuite>
+  <testsuite name="ArrayRefTest/19" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeWithAssignmentWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="ConstructWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="MakeFromPointersWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="MakeFromArrayWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromVectorWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="MakeFromVectorWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+    <testcase name="ConstructFromStructFieldWithTemplateConstructorWorks" type_param="gmx::ConstArrayRef&lt;double&gt;" status="run" time="0" classname="ArrayRefTest/19" />
+  </testsuite>
+  <testsuite name="StringUtilityTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StartsWith" status="run" time="0" classname="StringUtilityTest" />
+    <testcase name="EndsWith" status="run" time="0" classname="StringUtilityTest" />
+    <testcase name="StripSuffixIfPresent" status="run" time="0" classname="StringUtilityTest" />
+    <testcase name="StripString" status="run" time="0" classname="StringUtilityTest" />
+    <testcase name="SplitString" status="run" time="0" classname="StringUtilityTest" />
+  </testsuite>
+  <testsuite name="FormatStringTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesBasicFormatting" status="run" time="0" classname="FormatStringTest" />
+    <testcase name="HandlesLongStrings" status="run" time="0" classname="FormatStringTest" />
+  </testsuite>
+  <testsuite name="StringFormatterTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesBasicFormatting" status="run" time="0" classname="StringFormatterTest" />
+  </testsuite>
+  <testsuite name="formatAndJoinTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works" status="run" time="0" classname="formatAndJoinTest" />
+  </testsuite>
+  <testsuite name="JoinStringsTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works" status="run" time="0" classname="JoinStringsTest" />
+  </testsuite>
+  <testsuite name="ReplaceAllTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesEmptyStrings" status="run" time="0" classname="ReplaceAllTest" />
+    <testcase name="HandlesNoMatches" status="run" time="0" classname="ReplaceAllTest" />
+    <testcase name="HandlesMatchesAtEnds" status="run" time="0" classname="ReplaceAllTest" />
+    <testcase name="HandlesMultipleMatches" status="run" time="0" classname="ReplaceAllTest" />
+    <testcase name="HandlesWordBoundaries" status="run" time="0" classname="ReplaceAllTest" />
+    <testcase name="HandlesPossibleRecursiveMatches" status="run" time="0" classname="ReplaceAllTest" />
+  </testsuite>
+  <testsuite name="TextLineWrapperTest" tests="9" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="HandlesEmptyStrings" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="HandlesTrailingNewlines" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="WrapsCorrectly" status="run" time="0.001" classname="TextLineWrapperTest" />
+    <testcase name="WrapsCorrectlyWithExistingBreaks" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="HandlesIndent" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="HandlesIndentWithEmptyLines" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="HandlesHangingIndent" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="HandlesContinuationCharacter" status="run" time="0" classname="TextLineWrapperTest" />
+    <testcase name="WrapsCorrectlyWithExtraWhitespace" status="run" time="0" classname="TextLineWrapperTest" />
+  </testsuite>
+  <testsuite name="BitmaskTest32_11/BitmaskTest32" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SetAndClear/0" value_param="11" status="run" time="0" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="InitBit/0" value_param="11" status="run" time="0" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="InitLowBits/0" value_param="11" status="run" time="0" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="Disjoint/0" value_param="11" status="run" time="0" classname="BitmaskTest32_11/BitmaskTest32" />
+    <testcase name="Union/0" value_param="11" status="run" time="0" classname="BitmaskTest32_11/BitmaskTest32" />
+  </testsuite>
+  <testsuite name="BitmaskTest64_10_42/BitmaskTest64" tests="10" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SetAndClear/0" value_param="10" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="SetAndClear/1" value_param="42" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitBit/0" value_param="10" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitBit/1" value_param="42" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitLowBits/0" value_param="10" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="InitLowBits/1" value_param="42" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Disjoint/0" value_param="10" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Disjoint/1" value_param="42" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Union/0" value_param="10" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+    <testcase name="Union/1" value_param="42" status="run" time="0" classname="BitmaskTest64_10_42/BitmaskTest64" />
+  </testsuite>
+  <testsuite name="BitmaskTest128_9_78/BitmaskTest128" tests="10" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SetAndClear/0" value_param="9" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="SetAndClear/1" value_param="78" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitBit/0" value_param="9" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitBit/1" value_param="78" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitLowBits/0" value_param="9" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="InitLowBits/1" value_param="78" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Disjoint/0" value_param="9" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Disjoint/1" value_param="78" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Union/0" value_param="9" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+    <testcase name="Union/1" value_param="78" status="run" time="0" classname="BitmaskTest128_9_78/BitmaskTest128" />
+  </testsuite>
+</testsuites>

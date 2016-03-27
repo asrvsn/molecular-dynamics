@@ -1,6 +1,6 @@
-prefix=/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix
+prefix=/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix
 exec_prefix=${prefix}
-libdir=/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/lib
+libdir=/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/lib
 includedir=${prefix}/include
 
 Name: FFTW

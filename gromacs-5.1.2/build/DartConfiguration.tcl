@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/anand/Development/scifair/gromacs-5.1.2
-BuildDirectory: /home/anand/Development/scifair/gromacs-5.1.2/build
+SourceDirectory: /home/user/md/gromacs-5.1.2
+BuildDirectory: /home/user/md/gromacs-5.1.2/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: xps
+Site: alphasheets-server
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -33,8 +33,8 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EST
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/anand/Development/scifair/gromacs-5.1.2"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/usr/bin/cmake" "/home/user/md/gromacs-5.1.2"
+MakeCommand: /usr/bin/make -i
 DefaultCTestConfigurationType: Release
 
 # CVS options
@@ -52,13 +52,6 @@ GITCommand: /usr/bin/git
 GITUpdateOptions: 
 GITUpdateCustom: 
 
-# Perforce options
-P4Command: P4COMMAND-NOTFOUND
-P4Client: 
-P4Options: 
-P4UpdateOptions: 
-P4UpdateCustom: 
-
 # Generic update command
 UpdateCommand: 
 UpdateOptions: 
@@ -71,9 +64,9 @@ Compiler: /usr/bin/c++
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
-MemoryCheckCommand: /usr/bin/valgrind
+MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
 MemoryCheckCommandOptions: 
-MemoryCheckSuppressionFile: /home/anand/Development/scifair/gromacs-5.1.2/cmake/legacy_and_external.supp
+MemoryCheckSuppressionFile: /home/user/md/gromacs-5.1.2/cmake/legacy_and_external.supp
 
 # Coverage
 CoverageCommand: /usr/bin/gcov

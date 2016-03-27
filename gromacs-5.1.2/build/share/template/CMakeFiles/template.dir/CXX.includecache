@@ -482,7 +482,7 @@ gromacs/utility/basedefinitions.h
 
 ../src/gromacs/utility/real.h
 
-/home/anand/Development/scifair/gromacs-5.1.2/share/template/template.cpp
+/home/user/md/gromacs-5.1.2/share/template/template.cpp
 string
 -
 vector

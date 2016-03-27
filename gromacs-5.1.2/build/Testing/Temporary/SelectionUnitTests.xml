@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="165" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:54" time="0.075" name="AllTests">
+  <testsuite name="IndexBlockTest" tests="15" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CreatesUnknownBlock" status="run" time="0.001" classname="IndexBlockTest" />
+    <testcase name="CreatesAtomBlock" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="CreatesResidueBlock" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="CreatesMoleculeBlock" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="CreatesResidueBlockWithCompletion" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="CreatesMoleculeBlockWithCompletion" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="CreatesSingleBlock" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForFullBlocksPositive" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksOutOfOrderGroupForFullBlocksPositive" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForFullBlocksNegative" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteElementsTrivial" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteResiduesPositive" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteResiduesNegative" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteMoleculesPositive" status="run" time="0" classname="IndexBlockTest" />
+    <testcase name="ChecksGroupForCompleteMoleculesNegative" status="run" time="0" classname="IndexBlockTest" />
+  </testsuite>
+  <testsuite name="IndexMapTest" tests="11" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="InitializesAtomBlock" status="run" time="0.001" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupAtom" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupSingle" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupResidue" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupMolecule" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="InitializesOrgIdGroupAll" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="InitializesMoleculeBlock" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="MapsSingleBlock" status="run" time="0.001" classname="IndexMapTest" />
+    <testcase name="MapsResidueBlocks" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="MapsResidueBlocksWithMask" status="run" time="0" classname="IndexMapTest" />
+    <testcase name="HandlesMultipleRequests" status="run" time="0.001" classname="IndexMapTest" />
+  </testsuite>
+  <testsuite name="NeighborhoodSearchTest" tests="13" failures="0" disabled="0" errors="0" time="0.025">
+    <testcase name="SimpleSearch" status="run" time="0.007" classname="NeighborhoodSearchTest" />
+    <testcase name="SimpleSearchXY" status="run" time="0.006" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchBox" status="run" time="0.001" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchTriclinic" status="run" time="0.004" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearch2DPBC" status="run" time="0.002" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchNoPBC" status="run" time="0.001" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchXYBox" status="run" time="0.001" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesConcurrentSearches" status="run" time="0" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesNoPBC" status="run" time="0" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesNullPBC" status="run" time="0" classname="NeighborhoodSearchTest" />
+    <testcase name="HandlesSkippingPairs" status="run" time="0" classname="NeighborhoodSearchTest" />
+    <testcase name="SimpleSearchExclusions" status="run" time="0.002" classname="NeighborhoodSearchTest" />
+    <testcase name="GridSearchExclusions" status="run" time="0" classname="NeighborhoodSearchTest" />
+  </testsuite>
+  <testsuite name="PositionCalculationTest" tests="10" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="ComputesAtomPositions" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="ComputesResidueCOGPositions" status="run" time="0.001" classname="PositionCalculationTest" />
+    <testcase name="ComputesResidueCOMPositions" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="ComputesGroupCOGPositions" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="ComputesGroupCOMPositions" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="ComputesPositionsWithCompleteWhole" status="run" time="0.001" classname="PositionCalculationTest" />
+    <testcase name="ComputesPositionsWithCompleteMax" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="ComputesPositionMask" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="HandlesIdenticalStaticCalculations" status="run" time="0" classname="PositionCalculationTest" />
+    <testcase name="HandlesOverlappingStaticCalculations" status="run" time="0.001" classname="PositionCalculationTest" />
+  </testsuite>
+  <testsuite name="SelectionCollectionTest" tests="27" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="HandlesNoSelections" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesVelocityAndForceRequests" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="ParsesSelectionsFromFile" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesAtypicalWhitespace" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesInvalidRegularExpressions" status="run" time="0.001" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnsupportedRegularExpressions" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesMissingMethodParamValue" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesMissingMethodParamValue2" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesMissingMethodParamValue3" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceParser1" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceParser2" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceDelayed1" status="run" time="0.001" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnknownGroupReferenceDelayed2" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnsortedGroupReference" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesUnsortedGroupReferenceDelayed" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesOutOfRangeAtomIndexInGroup" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesOutOfRangeAtomIndexInGroupDelayed" status="run" time="0.001" classname="SelectionCollectionTest" />
+    <testcase name="HandlesOutOfRangeAtomIndexInGroupDelayed2" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromMissingMoleculeInfo" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromMissingAtomTypes" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromMissingPDBInfo" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromInvalidPermutation" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromInvalidPermutation2" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="RecoversFromInvalidPermutation3" status="run" time="0.001" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets2" status="run" time="0" classname="SelectionCollectionTest" />
+    <testcase name="HandlesFramesWithTooSmallAtomSubsets3" status="run" time="0" classname="SelectionCollectionTest" />
+  </testsuite>
+  <testsuite name="SelectionCollectionDataTest" tests="64" failures="0" disabled="0" errors="0" time="0.036">
+    <testcase name="HandlesAllNone" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAtomnr" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesResnr" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesResIndex" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMolIndex" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAtomname" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPdbAtomname" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAtomtype" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesChain" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMass" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesCharge" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesAltLoc" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesInsertCode" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesOccupancy" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBeta" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesResname" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesCoordinateKeywords" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesSameResidue" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesSameResidueName" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionKeywords" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesDistanceKeyword" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMinDistanceKeyword" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesWithinKeyword" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesInSolidAngleKeyword" status="run" time="0.002" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPermuteModifier" status="run" time="0.002" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPlusModifier" status="run" time="0.002" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesMergeModifier" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="ComputesMassesAndCharges" status="run" time="0.002" classname="SelectionCollectionDataTest" />
+    <testcase name="ComputesMassesAndChargesWithoutTopology" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesSelectionNames" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesIndexGroupsInSelections" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesIndexGroupsInSelectionsDelayed" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesUnsortedIndexGroupsInSelections" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesUnsortedIndexGroupsInSelectionsDelayed" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesConstantPositions" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesConstantPositionsWithModifiers" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesWithinConstantPositions" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesOverlappingIntegerRanges" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesOverlappingRealRanges" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesForcedStringMatchingMode" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesWildcardMatching" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesRegexMatching" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBasicBoolean" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesDynamicAtomValuedParameters" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesEmptySelectionWithUnevaluatedExpressions" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesEmptyReferenceForSame" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionModifiersForKeywords" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionModifiersForMethods" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesKeywordOfPositions" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesKeywordOfPositionsInArithmetic" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesNumericComparisons" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesArithmeticExpressions" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesNumericVariables" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesComplexNumericVariables" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesPositionVariables" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesConstantPositionInVariable" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesNumericConstantsInVariables" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBooleanStaticAnalysis" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBooleanStaticAnalysisWithVariables" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesBooleanStaticAnalysisWithMoreVariables" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesUnusedVariables" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesVariablesWithStaticEvaluationGroups" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesVariablesWithMixedEvaluationGroups" status="run" time="0" classname="SelectionCollectionDataTest" />
+    <testcase name="HandlesVariablesWithMixedEvaluationGroups2" status="run" time="0.001" classname="SelectionCollectionDataTest" />
+  </testsuite>
+  <testsuite name="SelectionOptionTest" tests="16" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="ParsesSimpleSelection" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesDynamicSelectionWhenStaticRequired" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesNonAtomicSelectionWhenAtomsRequired" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="ChecksEmptySelections" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="ChecksEmptyDelayedSelections" status="run" time="0.001" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooManySelections" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooFewSelections" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesDefaultSelectionText" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesAdjuster" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesDynamicWhenStaticRequiredWithAdjuster" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooManySelectionsWithAdjuster" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooFewSelectionsWithAdjuster" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesDelayedRequiredSelection" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesTooFewDelayedRequiredSelections" status="run" time="0.001" classname="SelectionOptionTest" />
+    <testcase name="HandlesDelayedOptionalSelection" status="run" time="0" classname="SelectionOptionTest" />
+    <testcase name="HandlesDelayedSelectionWithAdjuster" status="run" time="0" classname="SelectionOptionTest" />
+  </testsuite>
+  <testsuite name="SelectionFileOptionTest" tests="9" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="HandlesSingleSelectionOptionFromFile" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesTwoSeparateSelectionOptions" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesTwoSelectionOptionsFromSingleFile" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesRequiredOptionFromFile" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesRequiredOptionFromFileWithOtherOptionSet" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="HandlesTwoRequiredOptionsFromSingleFile" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="GivesErrorWithNoFile" status="run" time="0.001" classname="SelectionFileOptionTest" />
+    <testcase name="GivesErrorWithNonExistentFile" status="run" time="0" classname="SelectionFileOptionTest" />
+    <testcase name="GivesErrorWithMultipleFiles" status="run" time="0" classname="SelectionFileOptionTest" />
+  </testsuite>
+</testsuites>

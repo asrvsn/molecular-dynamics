@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0" name="AllTests">
+  <testsuite name="RVecTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CanBeStoredInVector" status="run" time="0" classname="RVecTest" />
+    <testcase name="ConvertsImplicitlyFrom_rvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="ConvertsImplicitlyTo_rvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAsMutable_rvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAs_rvec_Array" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAs_rvec_Reference" status="run" time="0" classname="RVecTest" />
+  </testsuite>
+</testsuites>

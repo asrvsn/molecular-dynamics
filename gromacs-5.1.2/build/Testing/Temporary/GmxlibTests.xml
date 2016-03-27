@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0" name="AllTests">
+  <testsuite name="ReadTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="get_eint_ReadsInteger" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint_WarnsAboutFloat" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint_WarnsAboutString" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint64_ReadsInteger" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint64_WarnsAboutFloat" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint64_WarnsAboutString" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_ereal_ReadsInteger" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_ereal_ReadsFloat" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_ereal_WarnsAboutString" status="run" time="0" classname="ReadTest" />
+  </testsuite>
+</testsuites>

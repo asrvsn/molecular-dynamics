@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/fftwBuild"
   "CMakeFiles/fftwBuild-complete"
   "fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-install"
@@ -12,6 +12,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang)
-  include(CMakeFiles/fftwBuild.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang)
+  INCLUDE(CMakeFiles/fftwBuild.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

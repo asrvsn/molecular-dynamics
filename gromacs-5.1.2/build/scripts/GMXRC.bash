@@ -52,7 +52,7 @@ MANPATH=$tmppath
 ##########################################################
 GMXPREFIX=/usr/local/gromacs
 GMXBIN=${GMXPREFIX}/bin
-GMXLDLIB=${GMXPREFIX}/lib
+GMXLDLIB=${GMXPREFIX}/lib/x86_64-linux-gnu
 GMXMAN=${GMXPREFIX}/share/man
 GMXDATA=${GMXPREFIX}/share/gromacs
 GROMACS_DIR=${GMXPREFIX}

@@ -73,9 +73,9 @@ if (DEFINED GROMACS_SUFFIX AND NOT "${GROMACS_SUFFIX}" STREQUAL "")
     message(FATAL_ERROR "GROMACS_SUFFIX is set inconsistently, expected ''")
 endif()
 set(GROMACS_SUFFIX "")
-set(GROMACS_CXX_COMPILER "/usr/bin/g++-4.9")
+set(GROMACS_CXX_COMPILER "/usr/bin/g++-4.8")
 set(GROMACS_CXX_COMPILER_ID "GNU")
-set(GROMACS_CXX_COMPILER_VERSION "4.9.2")
+set(GROMACS_CXX_COMPILER_VERSION "4.8.4")
 
 # Produce a message, since find_package() prints nothing on success.
 include(FindPackageMessage)

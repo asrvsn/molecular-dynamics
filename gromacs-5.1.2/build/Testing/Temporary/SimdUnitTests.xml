@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="140" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.019" name="AllTests">
+  <testsuite name="SimdBootstrapTest" tests="10" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimdAlign" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimdLoadStoreR" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimdLoadUR" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimdStoreUR" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimdLoadStoreI" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimdLoadUI" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimdStoreUI" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimd4LoadStoreR" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimd4LoadUR" status="run" time="0" classname="SimdBootstrapTest" />
+    <testcase name="gmxSimd4StoreUR" status="run" time="0" classname="SimdBootstrapTest" />
+  </testsuite>
+  <testsuite name="SimdFloatingpointTest" tests="35" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimdSetZeroR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdSet1R" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdLoad1R" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdAddR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdSubR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdMulR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFmaddR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFmsubR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFnmaddR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFnmsubR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFabsR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFnegR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdAndR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdOrR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdXorR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdAndnotR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdMaxR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdMinR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdRoundR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdTruncR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdFractionR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdGetExponentR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdGetMantissaR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdSetExponentR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdRsqrtR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdRcpR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBoolCmpEqAndBlendZeroR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBlendNotZeroR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBoolCmpLER" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBoolCmpLTR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBoolAndB" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBoolOrB" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdAnytrueB" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdBlendvR" status="run" time="0" classname="SimdFloatingpointTest" />
+    <testcase name="gmxSimdReduceR" status="run" time="0" classname="SimdFloatingpointTest" />
+  </testsuite>
+  <testsuite name="SimdVectorOperationsTest" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimdCalcRsqR" status="run" time="0" classname="SimdVectorOperationsTest" />
+    <testcase name="gmxSimdIprodR" status="run" time="0" classname="SimdVectorOperationsTest" />
+    <testcase name="gmxSimdNorm2R" status="run" time="0" classname="SimdVectorOperationsTest" />
+    <testcase name="gmxSimdCprodR" status="run" time="0" classname="SimdVectorOperationsTest" />
+  </testsuite>
+  <testsuite name="SimdMathTest" tests="37" failures="0" disabled="0" errors="0" time="0.019">
+    <testcase name="gmxSimdXorSignR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdInvsqrtR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdInvsqrtPairR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdSqrtR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdInvR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdLogR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdExp2R" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdExpR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdErfR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdErfcR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdSinR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdCosR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdTanR" status="run" time="0.002" classname="SimdMathTest" />
+    <testcase name="gmxSimdAsinR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdAcosR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdAtanR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdAtan2R" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdPmecorrForceR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdPmecorrPotentialR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdInvsqrtSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdInvsqrtPairSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdSqrtSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdInvSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdLogSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdExp2SingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdExpSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdErfSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdErfcSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdSinSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdCosSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdTanSingleaccuracyR" status="run" time="0.002" classname="SimdMathTest" />
+    <testcase name="gmxSimdAsinSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdAcosSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdAtanSingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdAtan2SingleaccuracyR" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="gmxSimdPmecorrForceSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="gmxSimdPmecorrPotentialSingleaccuracyR" status="run" time="0.001" classname="SimdMathTest" />
+  </testsuite>
+  <testsuite name="SimdIntegerTest" tests="24" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimdSetZeroI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdSet1I" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdAddI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdSubI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdMulI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdSlliI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdSrliI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdAndI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdAndnotI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdOrI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdXorI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdExtractI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdCvtR2I" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdCvttR2I" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdCvtI2R" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdBoolCmpEqAndBlendZeroI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdBlendNotZeroI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdBoolCmpLTI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdBoolAndIB" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdBoolOrIB" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdAnytrueIB" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdBlendvI" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdCvtB2IB" status="run" time="0" classname="SimdIntegerTest" />
+    <testcase name="gmxSimdCvtIB2B" status="run" time="0" classname="SimdIntegerTest" />
+  </testsuite>
+  <testsuite name="Simd4FloatingpointTest" tests="27" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimd4SetZeroR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4Set1R" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4Load1R" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4AddR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4SubR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4MulR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4FmaddR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4FmsubR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4FnmaddR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4FnmsubR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4FabsR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4FnegR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4MaxR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4MinR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4RoundR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4TruncR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4RsqrtR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BoolCmpEqAndBlendZeroR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BlendNotZeroR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BoolCmpLER" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BoolCmpLTR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BoolAndB" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BoolOrB" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4AnytrueB" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4BlendvR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4ReduceR" status="run" time="0" classname="Simd4FloatingpointTest" />
+    <testcase name="gmxSimd4Dotproduct3R" status="run" time="0" classname="Simd4FloatingpointTest" />
+  </testsuite>
+  <testsuite name="Simd4VectorOperationsTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimd4CalcRsqR" status="run" time="0" classname="Simd4VectorOperationsTest" />
+  </testsuite>
+  <testsuite name="Simd4MathTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="gmxSimd4InvsqrtR" status="run" time="0" classname="Simd4MathTest" />
+    <testcase name="gmxSimd4InvsqrtSingleaccuracyR" status="run" time="0" classname="Simd4MathTest" />
+  </testsuite>
+</testsuites>

@@ -16,7 +16,7 @@
 
 
 
-VPATH = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/mpi
+VPATH = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/mpi
 am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'
 am__make_running_with_option = \
   case $${target_option-} in \
@@ -236,18 +236,18 @@ am__define_uniq_tagged_files = \
 ETAGS = etags
 CTAGS = ctags
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing aclocal-1.14
 ALLOCA = 
 ALTIVEC_CFLAGS = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
 AS = as
-AUTOCONF = ${SHELL} /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing autoconf
-AUTOHEADER = ${SHELL} /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing autoheader
-AUTOMAKE = ${SHELL} /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing automake-1.14
+AUTOCONF = ${SHELL} /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing autoconf
+AUTOHEADER = ${SHELL} /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing autoheader
+AUTOMAKE = ${SHELL} /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing automake-1.14
 AVX_CFLAGS = -mavx
-AWK = gawk
+AWK = mawk
 CC = 
 CCDEPMODE = depmode=gcc3
 CFLAGS = -O3 -fomit-frame-pointer -mtune=native -malign-double -fstrict-aliasing -fno-schedule-insns -ffast-math
@@ -287,7 +287,7 @@ LIPO =
 LN_S = ln -s
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing makeinfo
+MAKEINFO = ${SHELL} /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
 MPICC = 
@@ -298,7 +298,7 @@ NM = /usr/bin/nm -B
 NMEDIT = 
 OBJDUMP = objdump
 OBJEXT = o
-OCAMLBUILD = ocamlbuild
+OCAMLBUILD = 
 OPENMP_CFLAGS = 
 OTOOL = 
 OTOOL64 = 
@@ -326,10 +326,10 @@ STACK_ALIGN_CFLAGS =
 STRIP = strip
 THREADLIBS = 
 VERSION = 3.3.4
-abs_builddir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-build/mpi
-abs_srcdir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/mpi
-abs_top_builddir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-build
-abs_top_srcdir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild
+abs_builddir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-build/mpi
+abs_srcdir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/mpi
+abs_top_builddir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-build
+abs_top_srcdir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -360,8 +360,8 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/install-sh
-libdir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/lib
+install_sh = ${SHELL} /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/install-sh
+libdir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
 localstatedir = ${prefix}/var
@@ -369,17 +369,17 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix
+prefix = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/mpi
+srcdir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/mpi
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = ../
 top_builddir = ..
-top_srcdir = /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild
+top_srcdir = /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild
 AM_CPPFLAGS = -I$(top_srcdir)/kernel -I$(top_srcdir)/dft	\
 -I$(top_srcdir)/rdft -I$(top_srcdir)/api -I$(top_srcdir)/tests	\
 -I$(top_srcdir)/libbench2

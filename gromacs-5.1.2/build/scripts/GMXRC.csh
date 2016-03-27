@@ -72,7 +72,7 @@ setenv MANPATH $tmppath
 ##########################################################
 setenv GMXPREFIX /usr/local/gromacs
 setenv GMXBIN ${GMXPREFIX}/bin
-setenv GMXLDLIB ${GMXPREFIX}/lib
+setenv GMXLDLIB ${GMXPREFIX}/lib/x86_64-linux-gnu
 setenv GMXMAN ${GMXPREFIX}/share/man
 setenv GMXDATA ${GMXPREFIX}/share/gromacs
 setenv GROMACS_DIR ${GMXPREFIX}

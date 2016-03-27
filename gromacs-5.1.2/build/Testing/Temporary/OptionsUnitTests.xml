@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="74" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.002" name="AllTests">
+  <testsuite name="AbstractOptionStorageTest" tests="5" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="HandlesSetInFinish" status="run" time="0.001" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesValueRemoval" status="run" time="0" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesValueAddition" status="run" time="0" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesTooManyValueAddition" status="run" time="0" classname="AbstractOptionStorageTest" />
+    <testcase name="AllowsEmptyValues" status="run" time="0" classname="AbstractOptionStorageTest" />
+  </testsuite>
+  <testsuite name="FileNameOptionTest" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesRequiredDefaultValueWithoutExtension" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="HandlesRequiredOptionWithoutValue" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="HandlesOptionalUnsetOption" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="HandlesOptionalDefaultValueWithoutExtension" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="HandlesRequiredCustomDefaultExtension" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="HandlesOptionalCustomDefaultExtension" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="GivesErrorOnUnknownFileSuffix" status="run" time="0" classname="FileNameOptionTest" />
+    <testcase name="GivesErrorOnInvalidFileSuffix" status="run" time="0" classname="FileNameOptionTest" />
+  </testsuite>
+  <testsuite name="FileNameOptionManagerTest" tests="15" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="AddsMissingExtension" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingCustomDefaultExtension" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingInputFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingGenericInputFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingDefaultInputFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="GivesErrorOnMissingRequiredInputFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AcceptsMissingInputFileIfSpecified" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AcceptsMissingDefaultInputFileIfSpecified" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AcceptsMissingRequiredInputFileIfSpecified" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionBasedOnExistingFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForRequiredDefaultNameBasedOnExistingFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForOptionalDefaultNameBasedOnExistingFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForRequiredFromDefaultNameOptionBasedOnExistingFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="AddsMissingExtensionForOptionalFromDefaultNameOptionBasedOnExistingFile" status="run" time="0" classname="FileNameOptionManagerTest" />
+    <testcase name="DefaultNameOptionWorksWithoutInputChecking" status="run" time="0" classname="FileNameOptionManagerTest" />
+  </testsuite>
+  <testsuite name="OptionsTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="FailsOnNonsafeStorage" status="run" time="0" classname="OptionsTest" />
+    <testcase name="FailsOnIncorrectEnumDefaultValue" status="run" time="0" classname="OptionsTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesMissingRequiredParameter" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesRequiredParameterWithDefaultValue" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesInvalidMultipleParameter" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMultipleParameter" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMissingValue" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesExtraValue" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesSubSections" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesNoStrictSubSections" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMultipleSources" status="run" time="0" classname="OptionsAssignerTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerBooleanTest" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StoresYesValue" status="run" time="0" classname="OptionsAssignerBooleanTest" />
+    <testcase name="SetsBooleanWithoutExplicitValue" status="run" time="0" classname="OptionsAssignerBooleanTest" />
+    <testcase name="ClearsBooleanWithPrefixNo" status="run" time="0" classname="OptionsAssignerBooleanTest" />
+    <testcase name="HandlesBooleanWithPrefixAndValue" status="run" time="0" classname="OptionsAssignerBooleanTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerIntegerTest" tests="13" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StoresSingleValue" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesEmptyValue" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesInvalidValue" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesOverflow" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="StoresDefaultValue" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="StoresDefaultValueIfSet" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesDefaultValueIfSetWhenNotSet" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesBothDefaultValues" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="StoresToVector" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectors" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectorFromSingleValue" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectorsWithDefaultValue" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+    <testcase name="HandlesVectorsWithDefaultValueWithInvalidAssignment" status="run" time="0" classname="OptionsAssignerIntegerTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerDoubleTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="StoresSingleValue" status="run" time="0.001" classname="OptionsAssignerDoubleTest" />
+    <testcase name="HandlesEmptyValue" status="run" time="0" classname="OptionsAssignerDoubleTest" />
+  </testsuite>
+  <testsuite name="OptionsAssignerStringTest" tests="11" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StoresSingleValue" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumValue" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumValueFromNullTerminatedArray" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesIncorrectEnumValue" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="CompletesEnumValue" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumWithNoValue" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultValue" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultValueFromVariable" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultValueFromVector" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultIndex" status="run" time="0" classname="OptionsAssignerStringTest" />
+    <testcase name="HandlesEnumDefaultIndexFromVariable" status="run" time="0" classname="OptionsAssignerStringTest" />
+  </testsuite>
+  <testsuite name="TimeUnitManagerTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="BasicOperations" status="run" time="0" classname="TimeUnitManagerTest" />
+    <testcase name="ScalesAssignedOptionValue" status="run" time="0" classname="TimeUnitManagerTest" />
+    <testcase name="DoesNotScaleDefaultValues" status="run" time="0" classname="TimeUnitManagerTest" />
+    <testcase name="ScalesUserInputWithMultipleSources" status="run" time="0" classname="TimeUnitManagerTest" />
+    <testcase name="TimeUnitOptionWorks" status="run" time="0" classname="TimeUnitManagerTest" />
+  </testsuite>
+</testsuites>

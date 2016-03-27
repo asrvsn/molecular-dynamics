@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/gmx.dir/gmx.cpp.o"
   "CMakeFiles/gmx.dir/legacymodules.cpp.o"
   "../../bin/gmx.pdb"
@@ -6,6 +6,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/gmx.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/gmx.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

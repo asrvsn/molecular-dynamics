@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.001" name="AllTests">
+  <testsuite name="ShakeTest" tests="4" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="ConstrainsOneBond" status="run" time="0.001" classname="ShakeTest" />
+    <testcase name="ConstrainsTwoDisjointBonds" status="run" time="0" classname="ShakeTest" />
+    <testcase name="ConstrainsTwoBondsWithACommonAtom" status="run" time="0" classname="ShakeTest" />
+    <testcase name="ConstrainsThreeBondsWithCommonAtoms" status="run" time="0" classname="ShakeTest" />
+  </testsuite>
+</testsuites>

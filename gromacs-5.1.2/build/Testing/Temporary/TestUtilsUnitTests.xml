@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="23" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.002" name="AllTests">
+  <testsuite name="ReferenceDataTest" tests="13" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="HandlesSimpleData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesFloatingPointData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesPresenceChecks" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesStringBlockData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesVectorData" status="run" time="0.001" classname="ReferenceDataTest" />
+    <testcase name="HandlesSequenceData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesIncorrectData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesMissingData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesMissingReferenceDataFile" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesSpecialCharactersInStrings" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesSequenceItemIndices" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesMultipleChecksAgainstSameData" status="run" time="0" classname="ReferenceDataTest" />
+    <testcase name="HandlesMultipleNullIds" status="run" time="0.001" classname="ReferenceDataTest" />
+  </testsuite>
+  <testsuite name="FloatingPointDifferenceTest" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesEqualValues" status="run" time="0" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesFloatValues" status="run" time="0" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesZerosOfDifferentSign" status="run" time="0" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesSignComparisonWithZero" status="run" time="0" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesUlpDifferences" status="run" time="0" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesUlpDifferenceAcrossZero" status="run" time="0" classname="FloatingPointDifferenceTest" />
+    <testcase name="HandlesNaN" status="run" time="0" classname="FloatingPointDifferenceTest" />
+  </testsuite>
+  <testsuite name="FloatingPointToleranceTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="UlpTolerance" status="run" time="0" classname="FloatingPointToleranceTest" />
+    <testcase name="RelativeToleranceAsFloatingPoint" status="run" time="0" classname="FloatingPointToleranceTest" />
+    <testcase name="RelativeToleranceAsUlp" status="run" time="0" classname="FloatingPointToleranceTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="46" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.004" name="AllTests">
+  <testsuite name="CommandLineHelpModuleTest" tests="3" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="PrintsGeneralHelp" status="run" time="0.001" classname="CommandLineHelpModuleTest" />
+    <testcase name="PrintsHelpOnTopic" status="run" time="0" classname="CommandLineHelpModuleTest" />
+    <testcase name="ExportsHelp" status="run" time="0.001" classname="CommandLineHelpModuleTest" />
+  </testsuite>
+  <testsuite name="CommandLineHelpWriterTest" tests="4" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="HandlesOptionTypes" status="run" time="0" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesLongFileOptions" status="run" time="0" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesLongOptions" status="run" time="0" classname="CommandLineHelpWriterTest" />
+    <testcase name="HandlesMultipleSections" status="run" time="0.001" classname="CommandLineHelpWriterTest" />
+  </testsuite>
+  <testsuite name="CommandLineModuleManagerTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="RunsModule" status="run" time="0" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelp" status="run" time="0" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelpWithDashH" status="run" time="0" classname="CommandLineModuleManagerTest" />
+    <testcase name="RunsModuleHelpWithDashHWithSingleModule" status="run" time="0" classname="CommandLineModuleManagerTest" />
+    <testcase name="HandlesConflictingBinaryAndModuleNames" status="run" time="0" classname="CommandLineModuleManagerTest" />
+  </testsuite>
+  <testsuite name="CommandLineParserTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesSingleValues" status="run" time="0" classname="CommandLineParserTest" />
+    <testcase name="HandlesNegativeNumbers" status="run" time="0" classname="CommandLineParserTest" />
+    <testcase name="HandlesDoubleDashOptionPrefix" status="run" time="0" classname="CommandLineParserTest" />
+    <testcase name="HandlesOptionsStartingWithNumbers" status="run" time="0" classname="CommandLineParserTest" />
+    <testcase name="HandlesSkipUnknown" status="run" time="0" classname="CommandLineParserTest" />
+  </testsuite>
+  <testsuite name="CommandLineProgramContextTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="FindsBinaryWithAbsolutePath" status="run" time="0" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryWithRelativePath" status="run" time="0" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromPath" status="run" time="0" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromCurrentDirectory" status="run" time="0" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromAbsoluteSymLink" status="run" time="0" classname="CommandLineProgramContextTest" />
+    <testcase name="FindsBinaryFromRelativeSymLink" status="run" time="0" classname="CommandLineProgramContextTest" />
+  </testsuite>
+  <testsuite name="ParseCommonArgsTest" tests="23" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="ParsesIntegerArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesInt64Args" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesRealArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesStringArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesBooleanArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesVectorArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesTimeArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesTimeArgsWithTimeUnit" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesEnumArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesFileArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesFileArgsWithDefaults" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParsesFileArgsWithDefaultFileName" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="ParseFileArgsWithCustomDefaultExtension" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesNonExistentInputFiles" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesNonExistentOptionalInputFiles" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="AcceptsNonExistentInputFilesIfSpecified" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesCompressedFiles" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="AcceptsUnknownTrajectoryExtension" status="run" time="0.001" classname="ParseCommonArgsTest" />
+    <testcase name="CompletesExtensionFromExistingFile" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="CompletesExtensionFromExistingFileWithDefaultFileName" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesNonReadNode" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="HandlesNonReadNodeWithDefaultFileName" status="run" time="0" classname="ParseCommonArgsTest" />
+    <testcase name="CanKeepUnknownArgs" status="run" time="0" classname="ParseCommonArgsTest" />
+  </testsuite>
+</testsuites>

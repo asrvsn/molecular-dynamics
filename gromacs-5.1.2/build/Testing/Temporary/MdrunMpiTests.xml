@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="3" errors="0" timestamp="2016-03-27T01:24:55" time="0.083" name="AllTests">
+  <testsuite name="DomainDecompositionSpecialCasesTest" tests="1" failures="0" disabled="0" errors="0" time="0.083">
+    <testcase name="AnEmptyDomainWorks" status="run" time="0.083" classname="DomainDecompositionSpecialCasesTest" />
+  </testsuite>
+  <testsuite name="DISABLED_InNvt/MultiSimTest" tests="1" failures="0" disabled="1" errors="0" time="0">
+    <testcase name="ExitsNormally/0" value_param="&quot;pcoupl = no&quot;" status="notrun" time="0" classname="DISABLED_InNvt/MultiSimTest" />
+  </testsuite>
+  <testsuite name="DISABLED_WithDifferentControlVariables/ReplicaExchangeTest" tests="2" failures="0" disabled="2" errors="0" time="0">
+    <testcase name="ExitsNormally/0" value_param="&quot;pcoupl = no&quot;" status="notrun" time="0" classname="DISABLED_WithDifferentControlVariables/ReplicaExchangeTest" />
+    <testcase name="ExitsNormally/1" value_param="&quot;pcoupl = Berendsen&quot;" status="notrun" time="0" classname="DISABLED_WithDifferentControlVariables/ReplicaExchangeTest" />
+  </testsuite>
+</testsuites>

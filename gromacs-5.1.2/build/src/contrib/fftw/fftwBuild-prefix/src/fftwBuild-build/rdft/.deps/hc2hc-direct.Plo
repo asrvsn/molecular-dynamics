@@ -1,15 +1,15 @@
 hc2hc-direct.lo: \
- /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/hc2hc-direct.c \
+ /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/hc2hc-direct.c \
  /usr/include/stdc-predef.h \
- /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/hc2hc.h \
- /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h \
- /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
+ /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/hc2hc.h \
+ /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h \
+ /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
  ../config.h /usr/include/stdlib.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -28,19 +28,19 @@ hc2hc-direct.lo: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/inttypes.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/xlocale.h \
- /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h
+ /home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h
 
 /usr/include/stdc-predef.h:
 
-/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/hc2hc.h:
+/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/hc2hc.h:
 
-/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h:
+/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h:
 
-/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
+/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
 
 ../config.h:
 
@@ -56,7 +56,7 @@ hc2hc-direct.lo: \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -100,9 +100,9 @@ hc2hc-direct.lo: \
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -114,4 +114,4 @@ hc2hc-direct.lo: \
 
 /usr/include/xlocale.h:
 
-/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h:
+/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h:

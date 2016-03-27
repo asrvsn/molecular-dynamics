@@ -1,8 +1,8 @@
 ;
 ;	File 'mdout.mdp' was generated
-;	By user: anand (1000)
-;	On host: xps
-;	At date: Sat Mar 26 23:56:27 2016
+;	By user: user (1000)
+;	On host: alphasheets-server
+;	At date: Sun Mar 27 03:20:03 2016
 
 ;
 
@@ -11,14 +11,14 @@
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = -DREST_ON -DSTEP6_5
+define                   = 
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 50000
+nsteps                   = 500000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -52,9 +52,9 @@ rtpi                     = 0.05
 
 ; OUTPUT CONTROL OPTIONS
 ; Output frequency for coords (x), velocities (v) and forces (f)
-nstxout                  = 1000
-nstvout                  = 1000
-nstfout                  = 1000
+nstxout                  = 5000
+nstvout                  = 5000
+nstfout                  = 5000
 ; Output frequency for energies to log file and energy file
 nstlog                   = 1000
 nstcalcenergy            = 100
@@ -150,7 +150,7 @@ sa-surface-tension       = -1
 
 ; OPTIONS FOR WEAK COUPLING ALGORITHMS
 ; Temperature coupling  
-tcoupl                   = berendsen
+tcoupl                   = Nose-Hoover
 nsttcouple               = -1
 nh-chain-length          = 10
 print-nose-hoover-chain-variables = no
@@ -158,15 +158,15 @@ print-nose-hoover-chain-variables = no
 tc_grps                  = PROT   MEMB   SOL_ION
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 1.0    1.0    1.0
-ref_t                    = 303.15   303.15   303.15
+ref_t                    = 303.15 303.15 303.15
 ; pressure coupling     
-pcoupl                   = No
-pcoupltype               = Isotropic
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = semiisotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
-tau-p                    = 1
-compressibility          = 
-ref-p                    = 
+tau_p                    = 5.0     5.0
+compressibility          = 4.5e-5  4.5e-5
+ref_p                    = 1.0     1.0
 ; Scaling of reference coordinates, No, All or COM
 refcoord_scaling         = com
 

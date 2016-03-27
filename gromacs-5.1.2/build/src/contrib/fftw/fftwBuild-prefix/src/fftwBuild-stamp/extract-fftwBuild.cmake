@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftw.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild" ABSOLUTE)
+get_filename_component(filename "/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftw.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

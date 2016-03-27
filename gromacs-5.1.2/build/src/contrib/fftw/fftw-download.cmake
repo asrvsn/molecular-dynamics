@@ -5,8 +5,8 @@
 # download fails).
 message(STATUS "downloading...
      src='http://www.fftw.org/fftw-3.3.4.tar.gz'
-     dest='/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftw.tar.gz'")
-file(DOWNLOAD "http://www.fftw.org/fftw-3.3.4.tar.gz" "/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftw.tar.gz"
+     dest='/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftw.tar.gz'")
+file(DOWNLOAD "http://www.fftw.org/fftw-3.3.4.tar.gz" "/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftw.tar.gz"
      SHOW_PROGRESS STATUS status LOG log)
 list(GET status 0 status_code)
 list(GET status 1 status_string)

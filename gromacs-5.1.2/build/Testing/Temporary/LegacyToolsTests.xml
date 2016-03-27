@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="12" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.014" name="AllTests">
+  <testsuite name="NoFatalErrorWhenWritingFrom/GmxTraj" tests="6" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="WithDifferentInputFormats/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/1" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/3" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/4" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+    <testcase name="WithDifferentInputFormats/5" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/GmxTraj" />
+  </testsuite>
+  <testsuite name="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" tests="6" failures="0" disabled="0" errors="0" time="0.009">
+    <testcase name="WithDifferentInputFormats/0" value_param="&quot;spc2-traj.trr&quot;" status="run" time="0.004" classname="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" />
+    <testcase name="WithDifferentInputFormats/1" value_param="&quot;spc2-traj.tng&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" />
+    <testcase name="WithDifferentInputFormats/2" value_param="&quot;spc2-traj.xtc&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" />
+    <testcase name="WithDifferentInputFormats/3" value_param="&quot;spc2-traj.gro&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" />
+    <testcase name="WithDifferentInputFormats/4" value_param="&quot;spc2-traj.pdb&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" />
+    <testcase name="WithDifferentInputFormats/5" value_param="&quot;spc2-traj.g96&quot;" status="run" time="0.001" classname="NoFatalErrorWhenWritingFrom/TrjconvWithIndexGroupSubset" />
+  </testsuite>
+</testsuites>

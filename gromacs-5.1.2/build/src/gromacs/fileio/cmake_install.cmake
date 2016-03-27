@@ -1,61 +1,61 @@
-# Install script for directory: /home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio
+# Install script for directory: /home/user/md/gromacs-5.1.2/src/gromacs/fileio
 
 # Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
-endif()
-string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  SET(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
+STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
 # Set the install configuration name.
-if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
-  if(BUILD_TYPE)
-    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  IF(BUILD_TYPE)
+    STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
-  else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
-  endif()
-  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
-endif()
+  ELSE(BUILD_TYPE)
+    SET(CMAKE_INSTALL_CONFIG_NAME "Release")
+  ENDIF(BUILD_TYPE)
+  MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
 
 # Set the component getting installed.
-if(NOT CMAKE_INSTALL_COMPONENT)
-  if(COMPONENT)
-    message(STATUS "Install component: \"${COMPONENT}\"")
-    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
-  else()
-    set(CMAKE_INSTALL_COMPONENT)
-  endif()
-endif()
+IF(NOT CMAKE_INSTALL_COMPONENT)
+  IF(COMPONENT)
+    MESSAGE(STATUS "Install component: \"${COMPONENT}\"")
+    SET(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  ELSE(COMPONENT)
+    SET(CMAKE_INSTALL_COMPONENT)
+  ENDIF(COMPONENT)
+ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 # Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
+IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  SET(CMAKE_INSTALL_SO_NO_EXE "1")
+ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "development")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gromacs/fileio" TYPE FILE FILES
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/confio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/enxio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/filenm.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/gmxfio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/matio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/mdoutf.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/mtxio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/pdbio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/tpxio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/trajectory_writing.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/trnio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/trx.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/trxio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/xdr_datatype.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/xtcio.h"
-    "/home/anand/Development/scifair/gromacs-5.1.2/src/gromacs/fileio/xvgr.h"
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "development")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gromacs/fileio" TYPE FILE FILES
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/confio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/enxio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/filenm.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/gmxfio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/matio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/mdoutf.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/mtxio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/pdbio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/tpxio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/trajectory_writing.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/trnio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/trx.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/trxio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/xdr_datatype.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/xtcio.h"
+    "/home/user/md/gromacs-5.1.2/src/gromacs/fileio/xvgr.h"
     )
-endif()
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "development")
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/anand/Development/scifair/gromacs-5.1.2/build/src/gromacs/fileio/tests/cmake_install.cmake")
+  INCLUDE("/home/user/md/gromacs-5.1.2/build/src/gromacs/fileio/tests/cmake_install.cmake")
 
-endif()
+ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

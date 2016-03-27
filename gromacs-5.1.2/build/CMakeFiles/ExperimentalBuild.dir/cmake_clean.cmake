@@ -1,9 +1,9 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "install_manifest.txt"
   "CMakeFiles/ExperimentalBuild"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang)
-  include(CMakeFiles/ExperimentalBuild.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang)
+  INCLUDE(CMakeFiles/ExperimentalBuild.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

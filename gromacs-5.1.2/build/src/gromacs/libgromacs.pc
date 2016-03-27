@@ -1,4 +1,4 @@
-libdir=/usr/local/gromacs/lib
+libdir=/usr/local/gromacs/lib/x86_64-linux-gnu
 
 Name: libgromacs
 Description: Gromacs library

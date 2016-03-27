@@ -40,40 +40,40 @@
  */
 
 /** Hardware and OS version for build host */
-#define BUILD_HOST              "Linux 4.1.1-040101-generic x86_64"
+#define BUILD_HOST              "Linux 3.19.0-32-generic x86_64"
 
 /** Date and time for build */
-#define BUILD_TIME              "Mon Mar 21 02:36:04 PDT 2016"
+#define BUILD_TIME              "Sun Mar 27 01:04:08 EDT 2016"
 
 /** User doing build */
-#define BUILD_USER              "anand@xps [CMAKE]"
+#define BUILD_USER              "user@alphasheets-server [CMAKE]"
 
 /** CPU vendor for build host */
 #define BUILD_CPU_VENDOR        "GenuineIntel"
 
 /** CPU brand for build host */
-#define BUILD_CPU_BRAND         "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz"
+#define BUILD_CPU_BRAND         "Intel(R) Xeon(R) CPU E5-2643 v3 @ 3.40GHz"
 
 /** CPU family for build host */
 #define BUILD_CPU_FAMILY        6
 
 /** CPU model for build host */
-#define BUILD_CPU_MODEL         61
+#define BUILD_CPU_MODEL         63
 
 /** CPU stepping for build host */
-#define BUILD_CPU_STEPPING      4
+#define BUILD_CPU_STEPPING      2
 
 /** CPU feature list for build host */
 #define BUILD_CPU_FEATURES      "aes apic avx avx2 clfsh cmov cx8 cx16 f16c fma htt lahf_lm mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic"
 
 /** C compiler used to build */
-#define BUILD_C_COMPILER        "/usr/bin/cc GNU 4.9.2"
+#define BUILD_C_COMPILER        "/usr/bin/cc GNU 4.8.4"
 
 /** C compiler flags used to build */
 #define BUILD_CFLAGS            " -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -O3 -DNDEBUG -funroll-all-loops -fexcess-precision=fast  -Wno-array-bounds "
 
 /** C++ compiler flags used to build, or empty string if no C++ */
-#define BUILD_CXX_COMPILER      "/usr/bin/c++ GNU 4.9.2"
+#define BUILD_CXX_COMPILER      "/usr/bin/c++ GNU 4.8.4"
 
 /** C++ compiler flags used to build */
 #define BUILD_CXXFLAGS          " -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -O3 -DNDEBUG -funroll-all-loops -fexcess-precision=fast  -Wno-array-bounds "
@@ -82,10 +82,10 @@
 #define CMAKE_INSTALL_PREFIX    "/usr/local/gromacs"
 
 /** Source directory for the build */
-#define CMAKE_SOURCE_DIR        "/home/anand/Development/scifair/gromacs-5.1.2"
+#define CMAKE_SOURCE_DIR        "/home/user/md/gromacs-5.1.2"
 
 /** Binary directory for the build */
-#define CMAKE_BINARY_DIR        "/home/anand/Development/scifair/gromacs-5.1.2/build"
+#define CMAKE_BINARY_DIR        "/home/user/md/gromacs-5.1.2/build"
 
 /** Location of data files in the installation directory */
 #define DATA_INSTALL_DIR        "share/gromacs"

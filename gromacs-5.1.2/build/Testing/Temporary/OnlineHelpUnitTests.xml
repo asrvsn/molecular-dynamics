@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="22" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.002" name="AllTests">
+  <testsuite name="TextTableFormatterTest" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="HandlesBasicCase" status="run" time="0.001" classname="TextTableFormatterTest" />
+    <testcase name="HandlesEmptyColumnTitles" status="run" time="0" classname="TextTableFormatterTest" />
+    <testcase name="HandlesIndentation" status="run" time="0" classname="TextTableFormatterTest" />
+    <testcase name="HandlesOverflowingLines" status="run" time="0" classname="TextTableFormatterTest" />
+    <testcase name="HandlesLastColumnFolding" status="run" time="0" classname="TextTableFormatterTest" />
+    <testcase name="HandlesEmptyColumns" status="run" time="0" classname="TextTableFormatterTest" />
+  </testsuite>
+  <testsuite name="HelpManagerTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandlesRootTopic" status="run" time="0" classname="HelpManagerTest" />
+    <testcase name="HandlesSubTopics" status="run" time="0" classname="HelpManagerTest" />
+    <testcase name="HandlesInvalidTopics" status="run" time="0" classname="HelpManagerTest" />
+  </testsuite>
+  <testsuite name="HelpTopicFormattingTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="FormatsSimpleTopic" status="run" time="0" classname="HelpTopicFormattingTest" />
+    <testcase name="FormatsCompositeTopicWithSubTopics" status="run" time="0.001" classname="HelpTopicFormattingTest" />
+  </testsuite>
+  <testsuite name="HelpWriterContextTest" tests="11" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="FormatsParagraphs" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsRstStyleParagraphs" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="CleansUpExtraWhitespace" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsLiteralText" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsLiteralTextAtBeginning" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsLiteralTextWithIndentation" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsBulletList" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsEnumeratedList" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsSimpleTable" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsGridTable" status="run" time="0" classname="HelpWriterContextTest" />
+    <testcase name="FormatsTitles" status="run" time="0" classname="HelpWriterContextTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2016-03-27T01:24:53" time="0.067" name="AllTests">
+  <testsuite name="SolvateTest" tests="3" failures="0" disabled="0" errors="0" time="0.063">
+    <testcase name="cs_box_Works" status="run" time="0.005" classname="SolvateTest" />
+    <testcase name="cs_cp_Works" status="run" time="0.029" classname="SolvateTest" />
+    <testcase name="cs_cp_p_Works" status="run" time="0.029" classname="SolvateTest" />
+  </testsuite>
+  <testsuite name="InsertMoleculesTest" tests="4" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="InsertsMoleculesIntoExistingConfiguration" status="run" time="0.001" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoEmptyBox" status="run" time="0.001" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoEnlargedBox" status="run" time="0.001" classname="InsertMoleculesTest" />
+    <testcase name="InsertsMoleculesIntoFixedPositions" status="run" time="0.001" classname="InsertMoleculesTest" />
+  </testsuite>
+</testsuites>

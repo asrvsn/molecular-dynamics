@@ -1,8 +1,8 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/gmxtests"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang)
-  include(CMakeFiles/gmxtests.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang)
+  INCLUDE(CMakeFiles/gmxtests.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

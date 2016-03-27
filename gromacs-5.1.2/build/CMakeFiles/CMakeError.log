@@ -1,21 +1,19 @@
 Determining if files io.h exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4078766820/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4078766820.dir/build.make CMakeFiles/cmTryCompileExec4078766820.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4078766820.dir/CheckIncludeFiles.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec4078766820.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:16: fatal error: io.h: No such file or directory
+Run Build Command:/usr/bin/make "cmTryCompileExec1168399268/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1168399268.dir/build.make CMakeFiles/cmTryCompileExec1168399268.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1168399268.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1168399268.dir/CheckIncludeFiles.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:16: fatal error: io.h: No such file or directory
  #include <io.h>
                 ^
 compilation terminated.
-CMakeFiles/cmTryCompileExec4078766820.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4078766820.dir/CheckIncludeFiles.c.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec4078766820.dir/CheckIncludeFiles.c.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec4078766820/fast' failed
-make: *** [cmTryCompileExec4078766820/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1168399268.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1168399268/fast] Error 2
 
 Source:
 /* */
@@ -25,25 +23,23 @@ Source:
 int main(){return 0;}
 
 Determining if the memalign exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec52511631/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec52511631.dir/build.make CMakeFiles/cmTryCompileExec52511631.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec52511631.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec52511631.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘memalign’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec210869697/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec210869697.dir/build.make CMakeFiles/cmTryCompileExec210869697.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec210869697.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec210869697.dir/CheckSymbolExists.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘memalign’ was not declared in this scope
    return ((int*)(&memalign))[argc];
                    ^
-CMakeFiles/cmTryCompileExec52511631.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec52511631.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec52511631.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec52511631/fast' failed
-make: *** [cmTryCompileExec52511631/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec210869697.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec210869697/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <stdlib.h>
 
@@ -59,25 +55,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the _aligned_malloc exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3035222137/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3035222137.dir/build.make CMakeFiles/cmTryCompileExec3035222137.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3035222137.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec3035222137.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_aligned_malloc’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec4144087945/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4144087945.dir/build.make CMakeFiles/cmTryCompileExec4144087945.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4144087945.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec4144087945.dir/CheckSymbolExists.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_aligned_malloc’ was not declared in this scope
    return ((int*)(&_aligned_malloc))[argc];
                    ^
-CMakeFiles/cmTryCompileExec3035222137.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3035222137.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec3035222137.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec3035222137/fast' failed
-make: *** [cmTryCompileExec3035222137/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4144087945.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec4144087945/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <stdlib.h>
 
@@ -93,25 +87,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the _fileno exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1318501867/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1318501867.dir/build.make CMakeFiles/cmTryCompileExec1318501867.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1318501867.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1318501867.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_fileno’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec168451514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec168451514.dir/build.make CMakeFiles/cmTryCompileExec168451514.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec168451514.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec168451514.dir/CheckSymbolExists.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_fileno’ was not declared in this scope
    return ((int*)(&_fileno))[argc];
                    ^
-CMakeFiles/cmTryCompileExec1318501867.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1318501867.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec1318501867.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec1318501867/fast' failed
-make: *** [cmTryCompileExec1318501867/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec168451514.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec168451514/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <stdio.h>
 
@@ -127,25 +119,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the _commit exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2800264679/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2800264679.dir/build.make CMakeFiles/cmTryCompileExec2800264679.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2800264679.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2800264679.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:16: fatal error: io.h: No such file or directory
+Run Build Command:/usr/bin/make "cmTryCompileExec2959668374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2959668374.dir/build.make CMakeFiles/cmTryCompileExec2959668374.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2959668374.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2959668374.dir/CheckSymbolExists.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:16: fatal error: io.h: No such file or directory
  #include <io.h>
                 ^
 compilation terminated.
-CMakeFiles/cmTryCompileExec2800264679.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2800264679.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec2800264679.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec2800264679/fast' failed
-make: *** [cmTryCompileExec2800264679/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2959668374.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2959668374/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <io.h>
 
@@ -161,25 +151,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the rsqrt exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4110383345/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4110383345.dir/build.make CMakeFiles/cmTryCompileExec4110383345.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4110383345.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec4110383345.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘rsqrt’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec1197084169/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1197084169.dir/build.make CMakeFiles/cmTryCompileExec1197084169.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1197084169.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1197084169.dir/CheckSymbolExists.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘rsqrt’ was not declared in this scope
    return ((int*)(&rsqrt))[argc];
                    ^
-CMakeFiles/cmTryCompileExec4110383345.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4110383345.dir/CheckSymbolExists.cxx.o' failed
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec4110383345.dir/CheckSymbolExists.cxx.o] Error 1
-Makefile:118: recipe for target 'cmTryCompileExec4110383345/fast' failed
-make: *** [cmTryCompileExec4110383345/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1197084169.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1197084169/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <math.h>
 
@@ -195,25 +183,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the rsqrtf exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2124667863/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2124667863.dir/build.make CMakeFiles/cmTryCompileExec2124667863.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2124667863.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2124667863.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘rsqrtf’ was not declared in this scope
+Run Build Command:/usr/bin/make "cmTryCompileExec2391887817/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2391887817.dir/build.make CMakeFiles/cmTryCompileExec2391887817.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2391887817.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2391887817.dir/CheckSymbolExists.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘rsqrtf’ was not declared in this scope
    return ((int*)(&rsqrtf))[argc];
                    ^
-CMakeFiles/cmTryCompileExec2124667863.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2124667863.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec2124667863.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec2124667863/fast' failed
-make: *** [cmTryCompileExec2124667863/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2391887817.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2391887817/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <math.h>
 
@@ -229,18 +215,18 @@ int main(int argc, char** argv)
 }
 
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4101338958/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4101338958.dir/build.make CMakeFiles/cmTryCompileExec4101338958.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4101338958.dir/TestEndianess.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec4101338958.dir/TestEndianess.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTryCompileExec4101338958
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4101338958.dir/link.txt --verbose=1
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec4101338958.dir/TestEndianess.c.o  -o cmTryCompileExec4101338958 -rdynamic 
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2245180385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2245180385.dir/build.make CMakeFiles/cmTryCompileExec2245180385.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2245180385.dir/TestEndianess.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2245180385.dir/TestEndianess.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2245180385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2245180385.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2245180385.dir/TestEndianess.c.o  -o cmTryCompileExec2245180385 -rdynamic 
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -269,26 +255,24 @@ int main(int argc, char *argv[])
 
 
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec879962065/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec879962065.dir/build.make CMakeFiles/cmTryCompileExec879962065.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec879962065.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec879962065.dir/CheckSymbolExists.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec879962065
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec879962065.dir/link.txt --verbose=1
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec879962065.dir/CheckSymbolExists.c.o  -o cmTryCompileExec879962065 -rdynamic 
-CMakeFiles/cmTryCompileExec879962065.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+Run Build Command:/usr/bin/make "cmTryCompileExec3268282803/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3268282803.dir/build.make CMakeFiles/cmTryCompileExec3268282803.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3268282803.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3268282803.dir/CheckSymbolExists.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3268282803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3268282803.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3268282803.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3268282803 -rdynamic 
+CMakeFiles/cmTryCompileExec3268282803.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec879962065.dir/build.make:88: recipe for target 'cmTryCompileExec879962065' failed
-make[1]: *** [cmTryCompileExec879962065] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec879962065/fast' failed
-make: *** [cmTryCompileExec879962065/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3268282803] Error 1
+make: *** [cmTryCompileExec3268282803/fast] Error 2
 
-File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -304,56 +288,52 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3665494798/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3665494798.dir/build.make CMakeFiles/cmTryCompileExec3665494798.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3665494798.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3665494798.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3665494798
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3665494798.dir/link.txt --verbose=1
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3665494798.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3665494798 -rdynamic -lpthreads 
+Run Build Command:/usr/bin/make "cmTryCompileExec2259993967/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2259993967.dir/build.make CMakeFiles/cmTryCompileExec2259993967.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2259993967.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2259993967.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2259993967
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2259993967.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2259993967.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2259993967 -rdynamic -lpthreads 
 /usr/bin/ld: error: cannot find -lpthreads
-CMakeFiles/cmTryCompileExec3665494798.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+CMakeFiles/cmTryCompileExec2259993967.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec3665494798.dir/build.make:88: recipe for target 'cmTryCompileExec3665494798' failed
-make[1]: *** [cmTryCompileExec3665494798] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec3665494798/fast' failed
-make: *** [cmTryCompileExec3665494798/fast] Error 2
+make[1]: *** [cmTryCompileExec2259993967] Error 1
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2259993967/fast] Error 2
 
 
 Performing C SOURCE FILE Test _isfinite_compile_ok failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2334460621/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2334460621.dir/build.make CMakeFiles/cmTryCompileExec2334460621.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2334460621.dir/src.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok -I/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec2334460621.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function ‘_isfinite’ [-Wimplicit-function-declaration]
+Run Build Command:/usr/bin/make "cmTryCompileExec3598422748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3598422748.dir/build.make CMakeFiles/cmTryCompileExec3598422748.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3598422748.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok -I/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec3598422748.dir/src.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function ‘_isfinite’ [-Wimplicit-function-declaration]
    _isfinite(f);
    ^
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:5:1: warning: control reaches end of non-void function [-Wreturn-type]
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:5:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:12: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
    _isfinite(f);
-   ^
-Linking C executable cmTryCompileExec2334460621
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2334460621.dir/link.txt --verbose=1
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok    CMakeFiles/cmTryCompileExec2334460621.dir/src.c.o  -o cmTryCompileExec2334460621 -rdynamic -lm 
-CMakeFiles/cmTryCompileExec2334460621.dir/src.c.o:src.c:function main: error: undefined reference to '_isfinite'
+            ^
+Linking C executable cmTryCompileExec3598422748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3598422748.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok    CMakeFiles/cmTryCompileExec3598422748.dir/src.c.o  -o cmTryCompileExec3598422748 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec3598422748.dir/src.c.o:src.c:function main: error: undefined reference to '_isfinite'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec2334460621.dir/build.make:88: recipe for target 'cmTryCompileExec2334460621' failed
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2334460621] Error 1
-Makefile:118: recipe for target 'cmTryCompileExec2334460621/fast' failed
-make: *** [cmTryCompileExec2334460621/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3598422748] Error 1
+make: *** [cmTryCompileExec3598422748/fast] Error 2
 
 Source file was:
 #include <math.h>
@@ -362,34 +342,32 @@ int main(void) {
   _isfinite(f);
 }
 Performing C SOURCE FILE Test _finite_compile_ok failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2892455147/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2892455147.dir/build.make CMakeFiles/cmTryCompileExec2892455147.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2892455147.dir/src.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok -I/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/float.h    -o CMakeFiles/cmTryCompileExec2892455147.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function ‘_finite’ [-Wimplicit-function-declaration]
+Run Build Command:/usr/bin/make "cmTryCompileExec2313399411/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2313399411.dir/build.make CMakeFiles/cmTryCompileExec2313399411.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2313399411.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok -I/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/float.h    -o CMakeFiles/cmTryCompileExec2313399411.dir/src.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function ‘_finite’ [-Wimplicit-function-declaration]
    _finite(f);
    ^
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:5:1: warning: control reaches end of non-void function [-Wreturn-type]
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:5:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:3: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:4:10: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
    _finite(f);
-   ^
-Linking C executable cmTryCompileExec2892455147
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2892455147.dir/link.txt --verbose=1
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok    CMakeFiles/cmTryCompileExec2892455147.dir/src.c.o  -o cmTryCompileExec2892455147 -rdynamic 
-CMakeFiles/cmTryCompileExec2892455147.dir/src.c.o:src.c:function main: error: undefined reference to '_finite'
+          ^
+Linking C executable cmTryCompileExec2313399411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2313399411.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok    CMakeFiles/cmTryCompileExec2313399411.dir/src.c.o  -o cmTryCompileExec2313399411 -rdynamic 
+CMakeFiles/cmTryCompileExec2313399411.dir/src.c.o:src.c:function main: error: undefined reference to '_finite'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTryCompileExec2892455147.dir/build.make:88: recipe for target 'cmTryCompileExec2892455147' failed
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2892455147] Error 1
-Makefile:118: recipe for target 'cmTryCompileExec2892455147/fast' failed
-make: *** [cmTryCompileExec2892455147/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2313399411] Error 1
+make: *** [cmTryCompileExec2313399411/fast] Error 2
 
 Source file was:
 #include <float.h>
@@ -398,83 +376,77 @@ int main(void) {
   _finite(f);
 }
 Determining if the include file regex exists failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec311413149/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec311413149.dir/build.make CMakeFiles/cmTryCompileExec311413149.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec311413149.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec311413149.dir/CheckIncludeFile.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-In file included from /usr/include/c++/4.9/regex:35:0,
-                 from /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
-/usr/include/c++/4.9/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+Run Build Command:/usr/bin/make "cmTryCompileExec2185815333/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2185815333.dir/build.make CMakeFiles/cmTryCompileExec2185815333.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2185815333.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2185815333.dir/CheckIncludeFile.cxx.o -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/4.8/regex:35:0,
+                 from /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/4.8/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
  #error This file requires compiler and library support for the \
   ^
-CMakeFiles/cmTryCompileExec311413149.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec311413149.dir/CheckIncludeFile.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec311413149.dir/CheckIncludeFile.cxx.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec311413149/fast' failed
-make: *** [cmTryCompileExec311413149/fast] Error 2
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2185815333.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTryCompileExec2185815333/fast] Error 2
 
 
 Performing C SOURCE FILE Test _callconv___vectorcall failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2570676485/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2570676485.dir/build.make CMakeFiles/cmTryCompileExec2570676485.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2570676485.dir/src.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___vectorcall   -o CMakeFiles/cmTryCompileExec2570676485.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘f’
+Run Build Command:/usr/bin/make "cmTryCompileExec4102138716/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4102138716.dir/build.make CMakeFiles/cmTryCompileExec4102138716.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4102138716.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___vectorcall   -o CMakeFiles/cmTryCompileExec4102138716.dir/src.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘f’
  int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
                   ^
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:18: warning: implicit declaration of function ‘f’ [-Wimplicit-function-declaration]
-CMakeFiles/cmTryCompileExec2570676485.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2570676485.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec2570676485.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec2570676485/fast' failed
-make: *** [cmTryCompileExec2570676485/fast] Error 2
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:18: warning: implicit declaration of function ‘f’ [-Wimplicit-function-declaration]
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4102138716.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec4102138716/fast] Error 2
 
 Source file was:
 int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
 Performing C SOURCE FILE Test _callconv___regcall failed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1982463581/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1982463581.dir/build.make CMakeFiles/cmTryCompileExec1982463581.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1982463581.dir/src.c.o
-/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___regcall   -o CMakeFiles/cmTryCompileExec1982463581.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘f’
+Run Build Command:/usr/bin/make "cmTryCompileExec3093021930/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3093021930.dir/build.make CMakeFiles/cmTryCompileExec3093021930.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3093021930.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___regcall   -o CMakeFiles/cmTryCompileExec3093021930.dir/src.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘f’
  int __regcall f(int i) {return i;} int main(void) {return f(0);}
                ^
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:15: warning: implicit declaration of function ‘f’ [-Wimplicit-function-declaration]
-CMakeFiles/cmTryCompileExec1982463581.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1982463581.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTryCompileExec1982463581.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-Makefile:118: recipe for target 'cmTryCompileExec1982463581/fast' failed
-make: *** [cmTryCompileExec1982463581/fast] Error 2
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c:1:15: warning: implicit declaration of function ‘f’ [-Wimplicit-function-declaration]
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3093021930.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec3093021930/fast] Error 2
 
 Source file was:
 int __regcall f(int i) {return i;} int main(void) {return f(0);}
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2698511823/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2698511823.dir/build.make CMakeFiles/cmTryCompileExec2698511823.dir/build
-make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2698511823.dir/TestEndianess.c.o
-/usr/bin/cc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2698511823.dir/TestEndianess.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTryCompileExec2698511823
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2698511823.dir/link.txt --verbose=1
-/usr/bin/cc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2698511823.dir/TestEndianess.c.o  -o cmTryCompileExec2698511823 -rdynamic 
-make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec860404498/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec860404498.dir/build.make CMakeFiles/cmTryCompileExec860404498.dir/build
+make[1]: Entering directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec860404498.dir/TestEndianess.c.o
+/usr/bin/cc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec860404498.dir/TestEndianess.c.o   -c /home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec860404498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec860404498.dir/link.txt --verbose=1
+/usr/bin/cc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec860404498.dir/TestEndianess.c.o  -o cmTryCompileExec860404498 -rdynamic 
+make[1]: Leaving directory `/home/user/md/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */

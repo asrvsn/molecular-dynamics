@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/lib'
+libdir='/home/user/md/gromacs-5.1.2/build/src/contrib/fftw/fftwBuild-prefix/lib'

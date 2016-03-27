@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/anand/Development/scifair/gromacs-5.1.2/src/contrib
-# Build directory: /home/anand/Development/scifair/gromacs-5.1.2/build/src/contrib
+# Source directory: /home/user/md/gromacs-5.1.2/src/contrib
+# Build directory: /home/user/md/gromacs-5.1.2/build/src/contrib
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
