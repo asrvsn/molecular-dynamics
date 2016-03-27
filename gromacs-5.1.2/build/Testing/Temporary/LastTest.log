@@ -1,0 +1,99 @@
+Start testing: Mar 21 02:52 PDT
+----------------------------------------------------------
+1/6 Testing: regressiontests/simple
+1/6 Test: regressiontests/simple
+Command: "/usr/bin/perl" "/home/anand/Development/scifair/gromacs-5.1.2/build/tests/regressiontests-5.1.2/gmxtest.pl" "simple" "-crosscompile" "-noverbose" "-nosuffix"
+Directory: /home/anand/Development/scifair/gromacs-5.1.2/build/tests
+"regressiontests/simple" start time: Mar 21 02:52 PDT
+Output:
+----------------------------------------------------------
+All 16 simple tests PASSED
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"regressiontests/simple" end time: Mar 21 02:52 PDT
+"regressiontests/simple" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/6 Testing: regressiontests/complex
+2/6 Test: regressiontests/complex
+Command: "/usr/bin/perl" "/home/anand/Development/scifair/gromacs-5.1.2/build/tests/regressiontests-5.1.2/gmxtest.pl" "complex" "-crosscompile" "-noverbose" "-nosuffix"
+Directory: /home/anand/Development/scifair/gromacs-5.1.2/build/tests
+"regressiontests/complex" start time: Mar 21 02:52 PDT
+Output:
+----------------------------------------------------------
+All 45 complex tests PASSED
+<end of output>
+Test time =  18.89 sec
+----------------------------------------------------------
+Test Passed.
+"regressiontests/complex" end time: Mar 21 02:53 PDT
+"regressiontests/complex" time elapsed: 00:00:18
+----------------------------------------------------------
+
+3/6 Testing: regressiontests/kernel
+3/6 Test: regressiontests/kernel
+Command: "/usr/bin/perl" "/home/anand/Development/scifair/gromacs-5.1.2/build/tests/regressiontests-5.1.2/gmxtest.pl" "kernel" "-crosscompile" "-noverbose" "-nosuffix"
+Directory: /home/anand/Development/scifair/gromacs-5.1.2/build/tests
+"regressiontests/kernel" start time: Mar 21 02:53 PDT
+Output:
+----------------------------------------------------------
+All 142 kernel tests PASSED
+<end of output>
+Test time =  37.57 sec
+----------------------------------------------------------
+Test Passed.
+"regressiontests/kernel" end time: Mar 21 02:53 PDT
+"regressiontests/kernel" time elapsed: 00:00:37
+----------------------------------------------------------
+
+4/6 Testing: regressiontests/freeenergy
+4/6 Test: regressiontests/freeenergy
+Command: "/usr/bin/perl" "/home/anand/Development/scifair/gromacs-5.1.2/build/tests/regressiontests-5.1.2/gmxtest.pl" "freeenergy" "-crosscompile" "-noverbose" "-nosuffix"
+Directory: /home/anand/Development/scifair/gromacs-5.1.2/build/tests
+"regressiontests/freeenergy" start time: Mar 21 02:53 PDT
+Output:
+----------------------------------------------------------
+All 10 freeenergy tests PASSED
+<end of output>
+Test time =  10.21 sec
+----------------------------------------------------------
+Test Passed.
+"regressiontests/freeenergy" end time: Mar 21 02:54 PDT
+"regressiontests/freeenergy" time elapsed: 00:00:10
+----------------------------------------------------------
+
+5/6 Testing: regressiontests/pdb2gmx
+5/6 Test: regressiontests/pdb2gmx
+Command: "/usr/bin/perl" "/home/anand/Development/scifair/gromacs-5.1.2/build/tests/regressiontests-5.1.2/gmxtest.pl" "pdb2gmx" "-crosscompile" "-noverbose" "-nosuffix"
+Directory: /home/anand/Development/scifair/gromacs-5.1.2/build/tests
+"regressiontests/pdb2gmx" start time: Mar 21 02:54 PDT
+Output:
+----------------------------------------------------------
+All 42 pdb2gmx tests PASSED
+<end of output>
+Test time =  10.18 sec
+----------------------------------------------------------
+Test Passed.
+"regressiontests/pdb2gmx" end time: Mar 21 02:54 PDT
+"regressiontests/pdb2gmx" time elapsed: 00:00:10
+----------------------------------------------------------
+
+6/6 Testing: regressiontests/rotation
+6/6 Test: regressiontests/rotation
+Command: "/usr/bin/perl" "/home/anand/Development/scifair/gromacs-5.1.2/build/tests/regressiontests-5.1.2/gmxtest.pl" "rotation" "-crosscompile" "-noverbose" "-nosuffix"
+Directory: /home/anand/Development/scifair/gromacs-5.1.2/build/tests
+"regressiontests/rotation" start time: Mar 21 02:54 PDT
+Output:
+----------------------------------------------------------
+All 12 rotation tests PASSED
+<end of output>
+Test time =   1.77 sec
+----------------------------------------------------------
+Test Passed.
+"regressiontests/rotation" end time: Mar 21 02:54 PDT
+"regressiontests/rotation" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Mar 21 02:54 PDT

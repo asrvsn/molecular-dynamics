@@ -1,0 +1,7 @@
+regressiontests/simple 1 1.00667
+regressiontests/complex 1 18.8903
+regressiontests/kernel 1 37.5725
+regressiontests/freeenergy 1 10.2062
+regressiontests/pdb2gmx 1 10.1844
+regressiontests/rotation 1 1.76584
+---

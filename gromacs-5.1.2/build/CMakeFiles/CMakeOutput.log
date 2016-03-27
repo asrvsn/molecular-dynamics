@@ -1,0 +1,1353 @@
+The system is: Linux - 4.1.1-040101-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3933620290/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3933620290.dir/build.make CMakeFiles/cmTryCompileExec3933620290.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3933620290.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3933620290.dir/testCCompiler.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3933620290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3933620290.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3933620290.dir/testCCompiler.c.o  -o cmTryCompileExec3933620290 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1658610260/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1658610260.dir/build.make CMakeFiles/cmTryCompileExec1658610260.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1658610260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1658610260.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1658610260 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1658610260' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8C0DpL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1658610260 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1658610260/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1658610260.dir/build.make CMakeFiles/cmTryCompileExec1658610260.dir/build]
+  ignore line: [make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1658610260]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1658610260.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1658610260 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1658610260' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8C0DpL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1658610260 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8C0DpL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1658610260] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec1658610260.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec518974072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec518974072.dir/build.make CMakeFiles/cmTryCompileExec518974072.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec518974072.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec518974072.dir/testCXXCompiler.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec518974072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec518974072.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec518974072.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec518974072 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2680054154/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2680054154.dir/build.make CMakeFiles/cmTryCompileExec2680054154.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2680054154
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2680054154.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2680054154 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2680054154' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy9HfEJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2680054154 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2680054154/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2680054154.dir/build.make CMakeFiles/cmTryCompileExec2680054154.dir/build]
+  ignore line: [make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2680054154]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2680054154.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2680054154 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2680054154' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy9HfEJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2680054154 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccy9HfEJ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2680054154] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec2680054154.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4141576073/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4141576073.dir/build.make CMakeFiles/cmTryCompileExec4141576073.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4141576073.dir/src.c.o
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec4141576073.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4141576073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4141576073.dir/link.txt --verbose=1
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec4141576073.dir/src.c.o  -o cmTryCompileExec4141576073 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2456510011/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2456510011.dir/build.make CMakeFiles/cmTryCompileExec2456510011.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2456510011.dir/src.cxx.o
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2456510011.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2456510011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2456510011.dir/link.txt --verbose=1
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2456510011.dir/src.cxx.o  -o cmTryCompileExec2456510011 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test CFLAGS_WARN succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec939007216/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec939007216.dir/build.make CMakeFiles/cmTryCompileExec939007216.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec939007216.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN -Wall -Wno-unused -Wunused-value -Wunused-parameter   -o CMakeFiles/cmTryCompileExec939007216.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec939007216
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec939007216.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_WARN -Wall -Wno-unused -Wunused-value -Wunused-parameter    CMakeFiles/cmTryCompileExec939007216.dir/src.c.o  -o cmTryCompileExec939007216 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_EXTRA succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2128230974/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128230974.dir/build.make CMakeFiles/cmTryCompileExec2128230974.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2128230974.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith   -o CMakeFiles/cmTryCompileExec2128230974.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2128230974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128230974.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith    CMakeFiles/cmTryCompileExec2128230974.dir/src.c.o  -o cmTryCompileExec2128230974 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_UNDEF succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3394022420/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3394022420.dir/build.make CMakeFiles/cmTryCompileExec3394022420.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3394022420.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_UNDEF -Wundef   -o CMakeFiles/cmTryCompileExec3394022420.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3394022420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3394022420.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_WARN_UNDEF -Wundef    CMakeFiles/cmTryCompileExec3394022420.dir/src.c.o  -o cmTryCompileExec3394022420 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_REL succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4040490751/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4040490751.dir/build.make CMakeFiles/cmTryCompileExec4040490751.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4040490751.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_REL -Wno-array-bounds   -o CMakeFiles/cmTryCompileExec4040490751.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4040490751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4040490751.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_WARN_REL -Wno-array-bounds    CMakeFiles/cmTryCompileExec4040490751.dir/src.c.o  -o cmTryCompileExec4040490751 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3819372839/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3819372839.dir/build.make CMakeFiles/cmTryCompileExec3819372839.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3819372839.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_EXCESS_PREC -fexcess-precision=fast   -o CMakeFiles/cmTryCompileExec3819372839.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3819372839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3819372839.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_EXCESS_PREC -fexcess-precision=fast    CMakeFiles/cmTryCompileExec3819372839.dir/src.c.o  -o cmTryCompileExec3819372839 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2019506000/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2019506000.dir/build.make CMakeFiles/cmTryCompileExec2019506000.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2019506000.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_COPT -funroll-all-loops   -o CMakeFiles/cmTryCompileExec2019506000.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2019506000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2019506000.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_COPT -funroll-all-loops    CMakeFiles/cmTryCompileExec2019506000.dir/src.c.o  -o cmTryCompileExec2019506000 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec452939605/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec452939605.dir/build.make CMakeFiles/cmTryCompileExec452939605.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec452939605.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_NOINLINE -fno-inline   -o CMakeFiles/cmTryCompileExec452939605.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec452939605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec452939605.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_NOINLINE -fno-inline    CMakeFiles/cmTryCompileExec452939605.dir/src.c.o  -o cmTryCompileExec452939605 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2010565061/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2010565061.dir/build.make CMakeFiles/cmTryCompileExec2010565061.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2010565061.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN -Wall -Wno-unused-function   -o CMakeFiles/cmTryCompileExec2010565061.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2010565061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2010565061.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_WARN -Wall -Wno-unused-function    CMakeFiles/cmTryCompileExec2010565061.dir/src.cxx.o  -o cmTryCompileExec2010565061 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_EXTRA succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3230783373/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3230783373.dir/build.make CMakeFiles/cmTryCompileExec3230783373.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3230783373.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wpointer-arith   -o CMakeFiles/cmTryCompileExec3230783373.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3230783373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3230783373.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wpointer-arith    CMakeFiles/cmTryCompileExec3230783373.dir/src.cxx.o  -o cmTryCompileExec3230783373 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_UNDEF succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec162262326/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec162262326.dir/build.make CMakeFiles/cmTryCompileExec162262326.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec162262326.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN_UNDEF -Wundef   -o CMakeFiles/cmTryCompileExec162262326.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec162262326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec162262326.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_WARN_UNDEF -Wundef    CMakeFiles/cmTryCompileExec162262326.dir/src.cxx.o  -o cmTryCompileExec162262326 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test CXXFLAGS_WARN_REL succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4079131593/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4079131593.dir/build.make CMakeFiles/cmTryCompileExec4079131593.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4079131593.dir/src.c.o
+/usr/bin/cc   -DCXXFLAGS_WARN_REL -Wno-array-bounds   -o CMakeFiles/cmTryCompileExec4079131593.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4079131593
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4079131593.dir/link.txt --verbose=1
+/usr/bin/cc   -DCXXFLAGS_WARN_REL -Wno-array-bounds    CMakeFiles/cmTryCompileExec4079131593.dir/src.c.o  -o cmTryCompileExec4079131593 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2734695880/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2734695880.dir/build.make CMakeFiles/cmTryCompileExec2734695880.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2734695880.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_EXCESS_PREC -fexcess-precision=fast   -o CMakeFiles/cmTryCompileExec2734695880.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2734695880
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2734695880.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_EXCESS_PREC -fexcess-precision=fast    CMakeFiles/cmTryCompileExec2734695880.dir/src.cxx.o  -o cmTryCompileExec2734695880 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4018004483/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4018004483.dir/build.make CMakeFiles/cmTryCompileExec4018004483.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4018004483.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_COPT -funroll-all-loops   -o CMakeFiles/cmTryCompileExec4018004483.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4018004483
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4018004483.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_COPT -funroll-all-loops    CMakeFiles/cmTryCompileExec4018004483.dir/src.cxx.o  -o cmTryCompileExec4018004483 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4105557186/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4105557186.dir/build.make CMakeFiles/cmTryCompileExec4105557186.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4105557186.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_NOINLINE -fno-inline   -o CMakeFiles/cmTryCompileExec4105557186.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4105557186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4105557186.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_NOINLINE -fno-inline    CMakeFiles/cmTryCompileExec4105557186.dir/src.cxx.o  -o cmTryCompileExec4105557186 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1425135035/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1425135035.dir/build.make CMakeFiles/cmTryCompileExec1425135035.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1425135035.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1425135035.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1425135035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1425135035.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1425135035.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1425135035 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1416321258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1416321258.dir/build.make CMakeFiles/cmTryCompileExec1416321258.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1416321258.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1416321258.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1416321258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1416321258.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1416321258.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1416321258 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3795037776/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3795037776.dir/build.make CMakeFiles/cmTryCompileExec3795037776.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3795037776.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3795037776.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3795037776
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3795037776.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3795037776.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3795037776 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2247222509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2247222509.dir/build.make CMakeFiles/cmTryCompileExec2247222509.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2247222509.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2247222509.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2247222509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2247222509.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2247222509.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2247222509 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec53311857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec53311857.dir/build.make CMakeFiles/cmTryCompileExec53311857.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec53311857.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec53311857.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec53311857
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec53311857.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec53311857.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec53311857 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2241974013/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2241974013.dir/build.make CMakeFiles/cmTryCompileExec2241974013.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2241974013.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2241974013.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2241974013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2241974013.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2241974013.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2241974013 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3581386703/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3581386703.dir/build.make CMakeFiles/cmTryCompileExec3581386703.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3581386703.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3581386703.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3581386703
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3581386703.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3581386703.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3581386703 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1192808414/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1192808414.dir/build.make CMakeFiles/cmTryCompileExec1192808414.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1192808414.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1192808414.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1192808414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1192808414.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec1192808414.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1192808414 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec967628108/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec967628108.dir/build.make CMakeFiles/cmTryCompileExec967628108.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec967628108.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec967628108.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec967628108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec967628108.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec967628108.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec967628108 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2603321187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2603321187.dir/build.make CMakeFiles/cmTryCompileExec2603321187.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2603321187.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2603321187.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2603321187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2603321187.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec2603321187.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2603321187 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nice exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4128701991/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4128701991.dir/build.make CMakeFiles/cmTryCompileExec4128701991.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4128701991.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec4128701991.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec4128701991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4128701991.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec4128701991.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec4128701991 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fsync exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2994108672/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2994108672.dir/build.make CMakeFiles/cmTryCompileExec2994108672.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2994108672.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2994108672.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2994108672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2994108672.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec2994108672.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2994108672 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fileno exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4222640823/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4222640823.dir/build.make CMakeFiles/cmTryCompileExec4222640823.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4222640823.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec4222640823.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec4222640823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4222640823.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec4222640823.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec4222640823 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2290184682/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2290184682.dir/build.make CMakeFiles/cmTryCompileExec2290184682.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2290184682.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2290184682.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2290184682
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2290184682.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec2290184682.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2290184682 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1395509942/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1395509942.dir/build.make CMakeFiles/cmTryCompileExec1395509942.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1395509942.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1395509942.dir/CheckSymbolExists.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1395509942
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1395509942.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec1395509942.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1395509942 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+File /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3226453628/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3226453628.dir/build.make CMakeFiles/cmTryCompileExec3226453628.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3226453628.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec3226453628.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3226453628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3226453628.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3226453628.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3226453628 -rdynamic -lrt 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec894718318/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec894718318.dir/build.make CMakeFiles/cmTryCompileExec894718318.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec894718318.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=feenableexcept   -o CMakeFiles/cmTryCompileExec894718318.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec894718318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec894718318.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=feenableexcept    CMakeFiles/cmTryCompileExec894718318.dir/CheckFunctionExists.c.o  -o cmTryCompileExec894718318 -rdynamic -lm 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4105684270/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4105684270.dir/build.make CMakeFiles/cmTryCompileExec4105684270.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4105684270.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Dsched_affinity_compile   -o CMakeFiles/cmTryCompileExec4105684270.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4105684270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4105684270.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Dsched_affinity_compile    CMakeFiles/cmTryCompileExec4105684270.dir/src.c.o  -o cmTryCompileExec4105684270 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2021948506/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2021948506.dir/build.make CMakeFiles/cmTryCompileExec2021948506.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2021948506.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2021948506.dir/CheckIncludeFile.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2021948506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2021948506.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2021948506.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2021948506 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1217650257/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1217650257.dir/build.make CMakeFiles/cmTryCompileExec1217650257.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1217650257.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1217650257.dir/CheckIncludeFile.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1217650257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1217650257.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1217650257.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1217650257 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2267389293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2267389293.dir/build.make CMakeFiles/cmTryCompileExec2267389293.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2267389293.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2267389293.dir/CheckIncludeFile.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2267389293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2267389293.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2267389293.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2267389293 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1374734153/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1374734153.dir/build.make CMakeFiles/cmTryCompileExec1374734153.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1374734153.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1374734153.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1374734153
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1374734153.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1374734153.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1374734153 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function zlibVersion exists in the /usr/lib/x86_64-linux-gnu/libz.so passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec825655608/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec825655608.dir/build.make CMakeFiles/cmTryCompileExec825655608.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec825655608.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=zlibVersion   -o CMakeFiles/cmTryCompileExec825655608.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec825655608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec825655608.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=zlibVersion    CMakeFiles/cmTryCompileExec825655608.dir/CheckFunctionExists.c.o  -o cmTryCompileExec825655608 -rdynamic -lz 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec59888320/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec59888320.dir/build.make CMakeFiles/cmTryCompileExec59888320.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec59888320.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec59888320.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec59888320
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec59888320.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec59888320.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec59888320 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec887286837/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec887286837.dir/build.make CMakeFiles/cmTryCompileExec887286837.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec887286837.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec887286837.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec887286837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec887286837.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec887286837.dir/CheckFunctionExists.c.o  -o cmTryCompileExec887286837 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3805886371/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3805886371.dir/build.make CMakeFiles/cmTryCompileExec3805886371.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3805886371.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3805886371.dir/CheckIncludeFiles.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3805886371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3805886371.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3805886371.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3805886371 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test PTHREAD_SETAFFINITY succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3266320411/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3266320411.dir/build.make CMakeFiles/cmTryCompileExec3266320411.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3266320411.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DPTHREAD_SETAFFINITY   -o CMakeFiles/cmTryCompileExec3266320411.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3266320411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3266320411.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DPTHREAD_SETAFFINITY    CMakeFiles/cmTryCompileExec3266320411.dir/src.c.o  -o cmTryCompileExec3266320411 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test isfinite_compile_ok succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1401568718/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1401568718.dir/build.make CMakeFiles/cmTryCompileExec1401568718.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1401568718.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Disfinite_compile_ok -I/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec1401568718.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1401568718
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1401568718.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Disfinite_compile_ok    CMakeFiles/cmTryCompileExec1401568718.dir/src.c.o  -o cmTryCompileExec1401568718 -rdynamic -lm 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  isfinite(f);
+  return 0;
+}
+Performing C++ SOURCE FILE Test CXXFLAG_STD_CXX0X succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec424782846/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec424782846.dir/build.make CMakeFiles/cmTryCompileExec424782846.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec424782846.dir/src.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXXFLAG_STD_CXX0X -std=c++0x   -o CMakeFiles/cmTryCompileExec424782846.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec424782846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec424782846.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXXFLAG_STD_CXX0X -std=c++0x    CMakeFiles/cmTryCompileExec424782846.dir/src.cxx.o  -o cmTryCompileExec424782846 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test GMX_CXX11_SUPPORTED succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3633490232/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3633490232.dir/build.make CMakeFiles/cmTryCompileExec3633490232.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3633490232.dir/src.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DGMX_CXX11_SUPPORTED -std=c++0x   -o CMakeFiles/cmTryCompileExec3633490232.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3633490232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3633490232.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DGMX_CXX11_SUPPORTED -std=c++0x    CMakeFiles/cmTryCompileExec3633490232.dir/src.cxx.o  -o cmTryCompileExec3633490232 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <vector>
+#include <memory>
+#include <utility>
+struct A {
+  A(int *i=NULL) : p(i) {} ;
+  std::unique_ptr<int> p;
+};
+template <typename Head, typename... Tail>
+struct VarList {
+  typedef VarList<Tail...> VarListTail;
+  typedef std::pair<Head, typename VarListTail::ListType> ListType;
+};
+class a { explicit operator bool() {return true;} };
+int main() {
+  typedef std::unique_ptr<int> intPointer;
+  intPointer p(new int(10));
+  std::vector<intPointer> v;
+  v.push_back(std::move(p));
+  std::vector<A> v2;
+  v2.push_back(A());  //requires default move constructor
+  v2.push_back(A(new int(5))); //detects bug in ICC
+}
+Performing C SOURCE FILE Test C_FLAG_march_core_avx2 succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2016794111/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2016794111.dir/build.make CMakeFiles/cmTryCompileExec2016794111.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2016794111.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_FLAG_march_core_avx2 -march=core-avx2   -o CMakeFiles/cmTryCompileExec2016794111.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2016794111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2016794111.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_FLAG_march_core_avx2 -march=core-avx2    CMakeFiles/cmTryCompileExec2016794111.dir/src.c.o  -o cmTryCompileExec2016794111 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SIMD_COMPILES_FLAG_march_core_avx2 succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1854987653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1854987653.dir/build.make CMakeFiles/cmTryCompileExec1854987653.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1854987653.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2   -o CMakeFiles/cmTryCompileExec1854987653.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1854987653
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1854987653.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2    CMakeFiles/cmTryCompileExec1854987653.dir/src.c.o  -o cmTryCompileExec1854987653 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<immintrin.h>
+                              int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C++ SOURCE FILE Test CXX_FLAG_march_core_avx2 succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec848517029/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec848517029.dir/build.make CMakeFiles/cmTryCompileExec848517029.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec848517029.dir/src.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_FLAG_march_core_avx2 -march=core-avx2   -o CMakeFiles/cmTryCompileExec848517029.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec848517029
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec848517029.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_FLAG_march_core_avx2 -march=core-avx2    CMakeFiles/cmTryCompileExec848517029.dir/src.cxx.o  -o cmTryCompileExec848517029 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SIMD_COMPILES_FLAG_march_core_avx2 succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec675918716/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec675918716.dir/build.make CMakeFiles/cmTryCompileExec675918716.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec675918716.dir/src.cxx.o
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2   -o CMakeFiles/cmTryCompileExec675918716.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec675918716
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec675918716.dir/link.txt --verbose=1
+/usr/bin/c++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2    CMakeFiles/cmTryCompileExec675918716.dir/src.cxx.o  -o cmTryCompileExec675918716 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<immintrin.h>
+                                int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C SOURCE FILE Test _callconv_ succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4218111412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4218111412.dir/build.make CMakeFiles/cmTryCompileExec4218111412.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4218111412.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv_   -o CMakeFiles/cmTryCompileExec4218111412.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4218111412
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4218111412.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv_    CMakeFiles/cmTryCompileExec4218111412.dir/src.c.o  -o cmTryCompileExec4218111412 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int  f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2378495481/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2378495481.dir/build.make CMakeFiles/cmTryCompileExec2378495481.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2378495481.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTryCompileExec2378495481.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2378495481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2378495481.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTryCompileExec2378495481.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2378495481 -rdynamic -lblas 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3377722156/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3377722156.dir/build.make CMakeFiles/cmTryCompileExec3377722156.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3377722156.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTryCompileExec3377722156.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3377722156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3377722156.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTryCompileExec3377722156.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3377722156 -rdynamic -llapack -lblas 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_DLOPEN succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1146680404/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1146680404.dir/build.make CMakeFiles/cmTryCompileExec1146680404.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1146680404.dir/src.c.o
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DHAVE_DLOPEN -I/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/dlfcn.h    -o CMakeFiles/cmTryCompileExec1146680404.dir/src.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1146680404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1146680404.dir/link.txt --verbose=1
+/usr/bin/cc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DHAVE_DLOPEN    CMakeFiles/cmTryCompileExec1146680404.dir/src.c.o  -o cmTryCompileExec1146680404 -rdynamic -ldl 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <dlfcn.h>
+int main(void) {
+  dlopen(0,0);
+  return 0;
+}
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3145352855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3145352855.dir/build.make CMakeFiles/cmTryCompileExec3145352855.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3145352855.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3145352855.dir/CheckIncludeFile.c.o   -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3145352855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3145352855.dir/link.txt --verbose=1
+/usr/bin/cc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3145352855.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3145352855 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec455818262/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec455818262.dir/build.make CMakeFiles/cmTryCompileExec455818262.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec455818262.dir/src.cxx.o
+/usr/bin/c++    -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter   -o CMakeFiles/cmTryCompileExec455818262.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec455818262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec455818262.dir/link.txt --verbose=1
+/usr/bin/c++    -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter    CMakeFiles/cmTryCompileExec455818262.dir/src.cxx.o  -o cmTryCompileExec455818262 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_NO_DEPRECATED_REGISTER succeded with the following output:
+Change Dir: /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2508701551/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2508701551.dir/build.make CMakeFiles/cmTryCompileExec2508701551.dir/build
+make[1]: Entering directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2508701551.dir/src.cxx.o
+/usr/bin/c++    -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register   -o CMakeFiles/cmTryCompileExec2508701551.dir/src.cxx.o -c /home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2508701551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2508701551.dir/link.txt --verbose=1
+/usr/bin/c++    -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register    CMakeFiles/cmTryCompileExec2508701551.dir/src.cxx.o  -o cmTryCompileExec2508701551 -rdynamic 
+make[1]: Leaving directory '/home/anand/Development/scifair/gromacs-5.1.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
