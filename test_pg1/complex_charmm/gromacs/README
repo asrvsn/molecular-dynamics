@@ -27,11 +27,11 @@ set cntmax = 6
 while ( ${cnt} <= ${cntmax} )
     @ pcnt = ${cnt} - 1
     if ( ${cnt} == 1 ) then
-        gmx grompp -f step6.{$cnt}_equilibration.mdp -o step6.{$cnt}_equilibration.tpr -c step6.{$pcnt}_minimization.gro -r step5_charmm2gmx.pdb -n index.ndx -p topol.top -maxwarn -1
-        gmx mdrun -v -deffnm step6.{$cnt}_equilibration
+        gmx grompp -f step6.5_equilibration.mdp -o step6.5_equilibration.tpr -c step6.4_minimization.gro -r step5_charmm2gmx.pdb -n index.ndx -p topol.top -maxwarn -1
+        gmx mdrun -v -deffnm step6.5_equilibration
     else
-        gmx grompp -f step6.{$cnt}_equilibration.mdp -o step6.{$cnt}_equilibration.tpr -c step6.{$pcnt}_equilibration.gro -r step5_charmm2gmx.pdb -n index.ndx -p topol.top -maxwarn -1
-        gmx mdrun -v -deffnm step6.{$cnt}_equilibration
+        gmx grompp -f step6.5_equilibration.mdp -o step6.5_equilibration.tpr -c step6.4_equilibration.gro -r step5_charmm2gmx.pdb -n index.ndx -p topol.top -maxwarn -1
+        gmx mdrun -v -deffnm step6.5_equilibration
     endif
     @ cnt += 1
 end

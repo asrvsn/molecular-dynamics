@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: anand (1000)
 ;	On host: xps
-;	At date: Sat Mar 26 21:39:21 2016
+;	At date: Sat Mar 26 23:56:27 2016
 
 ;
 
@@ -11,14 +11,14 @@
 ; e.g.: -I/home/joe/doe -I/home/mary/roe
 include                  = 
 ; e.g.: -DPOSRES -DFLEXIBLE (note these variable names are case sensitive)
-define                   = -DREST_ON -DSTEP6_3
+define                   = -DREST_ON -DSTEP6_5
 
 ; RUN CONTROL PARAMETERS
 integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
-dt                       = 0.001
-nsteps                   = 25000
+dt                       = 0.002
+nsteps                   = 50000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)

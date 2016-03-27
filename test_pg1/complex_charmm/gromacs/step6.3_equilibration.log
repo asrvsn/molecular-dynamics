@@ -582,3 +582,227 @@ Started mdrun on rank 0 Sat Mar 26 21:39:34 2016
     Temperature Pressure (bar)   Constr. rmsd
     3.03299e+02   -2.15636e+02    1.65856e-06
 
+           Step           Time         Lambda
+          17000       17.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    8.07351e+03    4.23285e+04    3.02540e+04    3.34778e+02   -1.43712e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.90997e+03    2.37388e+04   -6.98358e+02   -3.64329e+05    2.53767e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    5.41587e+02    9.75661e+01   -2.52355e+05    1.01045e+05   -1.51310e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.04223e+02   -7.12307e+02    1.65650e-06
+
+           Step           Time         Lambda
+          18000       18.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    8.10365e+03    4.26594e+04    3.04438e+04    3.90639e+02   -1.47288e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.89341e+03    2.32443e+04   -8.79451e+02   -3.63711e+05    2.67215e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    6.01066e+02    1.08184e+02   -2.51621e+05    1.00238e+05   -1.51383e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.01792e+02   -7.12560e+02    1.67403e-06
+
+Writing checkpoint, step 18480 at Sat Mar 26 21:54:36 2016
+
+
+           Step           Time         Lambda
+          19000       19.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    7.91530e+03    4.24056e+04    3.03809e+04    3.73581e+02   -1.36721e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.90515e+03    2.36417e+04   -1.30715e+03   -3.63472e+05    2.58589e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    6.40018e+02    1.34769e+02   -2.51933e+05    1.00296e+05   -1.51637e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.01967e+02   -7.15054e+02    1.66827e-06
+
+           Step           Time         Lambda
+          20000       20.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    7.86541e+03    4.22679e+04    3.04510e+04    3.49610e+02   -1.45819e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.95206e+03    2.37889e+04   -7.56438e+02   -3.64562e+05    2.60029e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    5.39320e+02    1.19858e+02   -2.52530e+05    1.00900e+05   -1.51630e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.03784e+02   -5.44593e+02    1.64930e-06
+
+           Step           Time         Lambda
+          21000       21.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    7.83234e+03    4.21301e+04    3.03601e+04    4.14194e+02   -1.55207e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.92041e+03    2.36775e+04   -5.76166e+02   -3.63938e+05    2.54391e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    5.86093e+02    1.06037e+02   -2.52099e+05    1.00618e+05   -1.51481e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.02936e+02   -3.62508e+02    1.66130e-06
+
+           Step           Time         Lambda
+          22000       22.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    8.22002e+03    4.21767e+04    3.05133e+04    3.91515e+02   -1.55208e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.85892e+03    2.35268e+04   -1.50692e+03   -3.63234e+05    2.58480e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    6.07119e+02    1.24621e+02   -2.51892e+05    1.00408e+05   -1.51484e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.02304e+02   -8.68262e+02    1.64416e-06
+
+           Step           Time         Lambda
+          23000       23.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    8.02048e+03    4.19171e+04    3.04212e+04    4.11923e+02   -1.42983e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    5.06326e+03    2.35245e+04   -1.09078e+03   -3.63542e+05    2.55909e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    5.85668e+02    1.25381e+02   -2.52147e+05    1.00677e+05   -1.51470e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.03113e+02   -3.46010e+02    1.64854e-06
+
+           Step           Time         Lambda
+          24000       24.00000        0.00000
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    8.27406e+03    4.17823e+04    3.04432e+04    4.17421e+02   -1.54782e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.92040e+03    2.34797e+04   -6.60380e+02   -3.63896e+05    2.55046e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    5.96240e+02    1.18668e+02   -2.52128e+05    1.00687e+05   -1.51442e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.03143e+02   -5.30440e+02    1.65503e-06
+
+           Step           Time         Lambda
+          25000       25.00000        0.00000
+
+Writing checkpoint, step 25000 at Sat Mar 26 21:59:41 2016
+
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    7.90035e+03    4.19100e+04    3.04881e+04    3.96286e+02   -1.44309e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.79702e+03    2.39360e+04   -1.46304e+03   -3.63311e+05    2.58959e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    6.24776e+02    1.04295e+02   -2.52172e+05    1.00754e+05   -1.51418e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.03347e+02   -6.94054e+02    1.65833e-06
+
+	<======  ###############  ==>
+	<====  A V E R A G E S  ====>
+	<==  ###############  ======>
+
+	Statistics over 25001 steps using 251 frames
+
+   Energies (kJ/mol)
+           Bond            U-B    Proper Dih.  Improper Dih.      CMAP Dih.
+    8.02752e+03    4.21377e+04    3.04034e+04    3.91690e+02   -1.53593e+02
+          LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
+    4.92541e+03    2.36096e+04   -9.22862e+02   -3.63599e+05    2.66247e+03
+ Position Rest.     Dih. Rest.      Potential    Kinetic En.   Total Energy
+    5.51407e+02    1.15658e+02   -2.51851e+05    1.00712e+05   -1.51139e+05
+    Temperature Pressure (bar)   Constr. rmsd
+    3.03219e+02   -5.37948e+02    0.00000e+00
+
+   Total Virial (kJ/mol)
+    3.94959e+04   -4.95076e+01   -5.15820e+02
+   -4.82781e+01    3.96506e+04    3.28433e+02
+   -5.13854e+02    3.25707e+02    4.10937e+04
+
+   Pressure (bar)
+   -5.23016e+02    1.16868e+01    3.83286e+01
+    1.15852e+01   -5.39716e+02   -2.06465e+01
+    3.81662e+01   -2.04212e+01   -5.51114e+02
+
+         T-PROT         T-MEMB      T-SOL_ION
+    3.00825e+02    3.03703e+02    3.02808e+02
+
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+ NB=Group-cutoff nonbonded kernels    NxN=N-by-N cluster Verlet kernels
+ RF=Reaction-Field  VdW=Van der Waals  QSTab=quadratic-spline table
+ W3=SPC/TIP3p  W4=TIP4p (single or pairs)
+ V&F=Potential and force  V=Potential only  F=Force only
+
+ Computing:                               M-Number         M-Flops  % Flops
+-----------------------------------------------------------------------------
+ NB VdW [V&F]                           820.582822         820.583     0.0
+ Pair Search distance check           11268.255042      101414.295     0.2
+ NxN Ewald Elec. + LJ [F]            614314.217280    47916508.948    91.7
+ NxN Ewald Elec. + LJ [V&F]            6229.914992      803659.034     1.5
+ NxN Ewald Elec. [F]                   3765.916864      229720.929     0.4
+ NxN Ewald Elec. [V&F]                   38.381040        3224.007     0.0
+ 1,4 nonbonded interactions            1144.395774      102995.620     0.2
+ Calc Weights                          2738.209524       98575.543     0.2
+ Spread Q Bspline                     58415.136512      116830.273     0.2
+ Gather F Bspline                     58415.136512      350490.819     0.7
+ 3D-FFT                              261164.646168     2089317.169     4.0
+ Solve PME                               90.003600        5760.230     0.0
+ Shift-X                                 22.854008         137.124     0.0
+ Bonds                                  169.156766        9980.249     0.0
+ Propers                               1403.806150      321471.608     0.6
+ Impropers                                8.600344        1788.872     0.0
+ Dihedral Restr.                          6.400256        1280.051     0.0
+ Pos. Restr.                             10.600424         530.021     0.0
+ Virial                                   9.174803         165.146     0.0
+ Stop-CM                                  9.163508          91.635     0.0
+ Calc-Ekin                               91.343016        2466.261     0.0
+ Lincs                                  260.510420       15630.625     0.0
+ Lincs-Mat                             1669.266768        6677.067     0.0
+ Constraint-V                          1001.040040        8008.320     0.0
+ Constraint-Vir                           7.434620         178.431     0.0
+ Settle                                 160.006400       51682.067     0.1
+ (null)                                   0.800032           0.000     0.0
+-----------------------------------------------------------------------------
+ Total                                                52239404.930   100.0
+-----------------------------------------------------------------------------
+
+
+     R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
+
+On 1 MPI rank, each using 4 OpenMP threads
+
+ Computing:          Num   Num      Call    Wall time         Giga-Cycles
+                     Ranks Threads  Count      (s)         total sum    %
+-----------------------------------------------------------------------------
+ Neighbor search        1    4        626      19.556        171.704   1.6
+ Force                  1    4      25001     976.608       8574.600  80.9
+ PME mesh               1    4      25001     159.930       1404.185  13.2
+ NB X/F buffer ops.     1    4      49376      11.085         97.329   0.9
+ Write traj.            1    4         27       0.565          4.964   0.0
+ Update                 1    4      25001      12.020        105.537   1.0
+ Constraints            1    4      25001      26.455        232.272   2.2
+ Rest                                           1.262         11.082   0.1
+-----------------------------------------------------------------------------
+ Total                                       1207.483      10601.673 100.0
+-----------------------------------------------------------------------------
+ Breakdown of PME mesh computation
+-----------------------------------------------------------------------------
+ PME spread/gather      1    4      50002      98.599        865.695   8.2
+ PME 3D-FFT             1    4      50002      54.711        480.364   4.5
+ PME solve Elec         1    4      25001       6.153         54.023   0.5
+-----------------------------------------------------------------------------
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     4313.377     1207.483      357.2
+                 (ns/day)    (hour/ns)
+Performance:        1.789       13.416
+Finished mdrun on rank 0 Sat Mar 26 21:59:41 2016
