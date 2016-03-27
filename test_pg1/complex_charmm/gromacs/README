@@ -16,15 +16,20 @@
 # In the case that there is a problem during minimization using a single precision of GROMACS, please try to use 
 # a double precision of GROMACS only for the minimization step.
 
+echo "START INITIALIZATION RUN"
+
 # step6.0
 gmx grompp -f step6.0_minimization.mdp -o step6.0_minimization.tpr -c step5_charmm2gmx.pdb -p topol.top -maxwarn -1
-gmx_d mdrun -v -deffnm step6.0_minimization
+gmx mdrun -v -deffnm step6.0_minimization
 
 # Equilibration
 cnt=1
 cntmax=6
 
+echo "FINISHED INITIALIZATION RUN; starting equilibration run"
+
 while [ "$cnt" -le "$cntmax" ]; do
+    echo "EQUILIBRATE STEP: $cnt"
     let "pcnt = $cnt - 1"
     if [ "$cnt" -eq 1 ]; then
         gmx grompp -f "step6.$cnt_equilibration.mdp" -o "step6.$cnt_equilibration.tpr" -c "step6.$pcnt_minimization.gro" -r step5_charmm2gmx.pdb -n index.ndx -p topol.top -maxwarn -1
@@ -36,11 +41,14 @@ while [ "$cnt" -le "$cntmax" ]; do
     let "cnt = $cnt + 1"
 done
 
+echo "FINISHED EQUILIBRATION RUN; starting production run"
+
 # Production
 cnt=1
 cntmax=10
 
 while [ "$cnt" -le "$cntmax" ]; do
+    echo "PRODUCTION STEP: $cnt"
     if [ "$cnt" -eq 1 ] then
         gmx grompp -f step7_production.mdp -o "step7_$cnt.tpr" -c step6.6_equilibration.gro -n index.ndx -p topol.top -maxwarn -1
         gmx mdrun -v -deffnm "step7_$cnt"

@@ -1,0 +1,176 @@
+#ifdef STEP6_0
+#define fc_bb 4000.0
+#define fc_sc 2000.0
+#endif
+#ifdef STEP6_1
+#define fc_bb 4000.0
+#define fc_sc 2000.0
+#endif
+#ifdef STEP6_2
+#define fc_bb 2000.0
+#define fc_sc 1000.0
+#endif
+#ifdef STEP6_3
+#define fc_bb 1000.0
+#define fc_sc 500.0
+#endif
+#ifdef STEP6_4
+#define fc_bb 500.0
+#define fc_sc 200.0
+#endif
+#ifdef STEP6_5
+#define fc_bb 200.0
+#define fc_sc 50.0
+#endif
+#ifdef STEP6_6
+#define fc_bb 50.0
+#define fc_sc 0.0
+#endif
+#ifdef STEP7
+#define fc_bb 0.0
+#define fc_sc 0.0
+#endif
+
+[ position_restraints ]
+    1     1    fc_bb    fc_bb    fc_bb
+    5     1    fc_bb    fc_bb    fc_bb
+    7     1    fc_sc    fc_sc    fc_sc
+   10     1    fc_sc    fc_sc    fc_sc
+   13     1    fc_sc    fc_sc    fc_sc
+   16     1    fc_sc    fc_sc    fc_sc
+   19     1    fc_sc    fc_sc    fc_sc
+   23     1    fc_bb    fc_bb    fc_bb
+   24     1    fc_bb    fc_bb    fc_bb
+   25     1    fc_bb    fc_bb    fc_bb
+   27     1    fc_bb    fc_bb    fc_bb
+   29     1    fc_sc    fc_sc    fc_sc
+   31     1    fc_sc    fc_sc    fc_sc
+   35     1    fc_sc    fc_sc    fc_sc
+   39     1    fc_bb    fc_bb    fc_bb
+   40     1    fc_bb    fc_bb    fc_bb
+   41     1    fc_bb    fc_bb    fc_bb
+   43     1    fc_bb    fc_bb    fc_bb
+   45     1    fc_sc    fc_sc    fc_sc
+   48     1    fc_sc    fc_sc    fc_sc
+   51     1    fc_sc    fc_sc    fc_sc
+   54     1    fc_sc    fc_sc    fc_sc
+   57     1    fc_sc    fc_sc    fc_sc
+   61     1    fc_bb    fc_bb    fc_bb
+   62     1    fc_bb    fc_bb    fc_bb
+   63     1    fc_bb    fc_bb    fc_bb
+   65     1    fc_bb    fc_bb    fc_bb
+   67     1    fc_sc    fc_sc    fc_sc
+   69     1    fc_sc    fc_sc    fc_sc
+   73     1    fc_sc    fc_sc    fc_sc
+   77     1    fc_bb    fc_bb    fc_bb
+   78     1    fc_bb    fc_bb    fc_bb
+   79     1    fc_bb    fc_bb    fc_bb
+   81     1    fc_bb    fc_bb    fc_bb
+   83     1    fc_sc    fc_sc    fc_sc
+   86     1    fc_sc    fc_sc    fc_sc
+   89     1    fc_sc    fc_sc    fc_sc
+   92     1    fc_sc    fc_sc    fc_sc
+   95     1    fc_sc    fc_sc    fc_sc
+   99     1    fc_bb    fc_bb    fc_bb
+  100     1    fc_bb    fc_bb    fc_bb
+  101     1    fc_bb    fc_bb    fc_bb
+  103     1    fc_bb    fc_bb    fc_bb
+  105     1    fc_sc    fc_sc    fc_sc
+  107     1    fc_sc    fc_sc    fc_sc
+  111     1    fc_sc    fc_sc    fc_sc
+  115     1    fc_bb    fc_bb    fc_bb
+  116     1    fc_bb    fc_bb    fc_bb
+  117     1    fc_bb    fc_bb    fc_bb
+  119     1    fc_bb    fc_bb    fc_bb
+  121     1    fc_sc    fc_sc    fc_sc
+  124     1    fc_sc    fc_sc    fc_sc
+  127     1    fc_sc    fc_sc    fc_sc
+  130     1    fc_sc    fc_sc    fc_sc
+  133     1    fc_sc    fc_sc    fc_sc
+  137     1    fc_bb    fc_bb    fc_bb
+  138     1    fc_bb    fc_bb    fc_bb
+  139     1    fc_bb    fc_bb    fc_bb
+  141     1    fc_bb    fc_bb    fc_bb
+  143     1    fc_sc    fc_sc    fc_sc
+  145     1    fc_sc    fc_sc    fc_sc
+  147     1    fc_sc    fc_sc    fc_sc
+  151     1    fc_bb    fc_bb    fc_bb
+  152     1    fc_bb    fc_bb    fc_bb
+  153     1    fc_bb    fc_bb    fc_bb
+  154     1    fc_sc    fc_sc    fc_sc
+  157     1    fc_bb    fc_bb    fc_bb
+  159     1    fc_sc    fc_sc    fc_sc
+  162     1    fc_sc    fc_sc    fc_sc
+  165     1    fc_bb    fc_bb    fc_bb
+  166     1    fc_bb    fc_bb    fc_bb
+  167     1    fc_bb    fc_bb    fc_bb
+  168     1    fc_sc    fc_sc    fc_sc
+  171     1    fc_bb    fc_bb    fc_bb
+  173     1    fc_sc    fc_sc    fc_sc
+  176     1    fc_sc    fc_sc    fc_sc
+  179     1    fc_bb    fc_bb    fc_bb
+  180     1    fc_bb    fc_bb    fc_bb
+  181     1    fc_bb    fc_bb    fc_bb
+  183     1    fc_bb    fc_bb    fc_bb
+  185     1    fc_sc    fc_sc    fc_sc
+  187     1    fc_sc    fc_sc    fc_sc
+  191     1    fc_sc    fc_sc    fc_sc
+  195     1    fc_bb    fc_bb    fc_bb
+  196     1    fc_bb    fc_bb    fc_bb
+  197     1    fc_bb    fc_bb    fc_bb
+  199     1    fc_bb    fc_bb    fc_bb
+  201     1    fc_sc    fc_sc    fc_sc
+  204     1    fc_sc    fc_sc    fc_sc
+  207     1    fc_sc    fc_sc    fc_sc
+  210     1    fc_sc    fc_sc    fc_sc
+  213     1    fc_sc    fc_sc    fc_sc
+  217     1    fc_bb    fc_bb    fc_bb
+  218     1    fc_bb    fc_bb    fc_bb
+  219     1    fc_bb    fc_bb    fc_bb
+  221     1    fc_bb    fc_bb    fc_bb
+  223     1    fc_sc    fc_sc    fc_sc
+  225     1    fc_sc    fc_sc    fc_sc
+  229     1    fc_sc    fc_sc    fc_sc
+  233     1    fc_bb    fc_bb    fc_bb
+  234     1    fc_bb    fc_bb    fc_bb
+  235     1    fc_bb    fc_bb    fc_bb
+  237     1    fc_bb    fc_bb    fc_bb
+  239     1    fc_sc    fc_sc    fc_sc
+  242     1    fc_sc    fc_sc    fc_sc
+  245     1    fc_sc    fc_sc    fc_sc
+  248     1    fc_sc    fc_sc    fc_sc
+  251     1    fc_sc    fc_sc    fc_sc
+  255     1    fc_bb    fc_bb    fc_bb
+  256     1    fc_bb    fc_bb    fc_bb
+  257     1    fc_bb    fc_bb    fc_bb
+  259     1    fc_bb    fc_bb    fc_bb
+  261     1    fc_sc    fc_sc    fc_sc
+  263     1    fc_sc    fc_sc    fc_sc
+  267     1    fc_sc    fc_sc    fc_sc
+  271     1    fc_bb    fc_bb    fc_bb
+  272     1    fc_bb    fc_bb    fc_bb
+  273     1    fc_bb    fc_bb    fc_bb
+  275     1    fc_bb    fc_bb    fc_bb
+  277     1    fc_sc    fc_sc    fc_sc
+  280     1    fc_sc    fc_sc    fc_sc
+  283     1    fc_sc    fc_sc    fc_sc
+  286     1    fc_sc    fc_sc    fc_sc
+  289     1    fc_sc    fc_sc    fc_sc
+  293     1    fc_bb    fc_bb    fc_bb
+  294     1    fc_bb    fc_bb    fc_bb
+  295     1    fc_bb    fc_bb    fc_bb
+  297     1    fc_bb    fc_bb    fc_bb
+  299     1    fc_sc    fc_sc    fc_sc
+  301     1    fc_sc    fc_sc    fc_sc
+  305     1    fc_sc    fc_sc    fc_sc
+  309     1    fc_bb    fc_bb    fc_bb
+  310     1    fc_bb    fc_bb    fc_bb
+  311     1    fc_bb    fc_bb    fc_bb
+  313     1    fc_bb    fc_bb    fc_bb
+  315     1    fc_sc    fc_sc    fc_sc
+  318     1    fc_sc    fc_sc    fc_sc
+  321     1    fc_sc    fc_sc    fc_sc
+  324     1    fc_sc    fc_sc    fc_sc
+  327     1    fc_sc    fc_sc    fc_sc
+  331     1    fc_bb    fc_bb    fc_bb
+  332     1    fc_bb    fc_bb    fc_bb
